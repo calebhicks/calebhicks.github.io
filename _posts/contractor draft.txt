@@ -1,0 +1,23 @@
+---
+date: 2014-04-10 20:12:13
+modified:
+layout: post
+comments: true
+title: "How This Geek Learned to Build a Desk and Install a New Electric Outlet"
+slug:
+summary:
+categories:
+  - education
+tags: 
+  - creating
+  - building
+  - learning
+link: 
+tweet: 
+---
+
+Learning is an interesting thing. The way we learn has shifted from lectures in classrooms to connecting and interacting with experts around the world.
+
+Here's an example. During Spring Break last week my wife decided that she wanted to repaint the entire house and create a project room. This would involve me installing a couple of electrical outlets, mounting the TV in the living room, and building a desk.
+
+I'm a geek, not a contractor. I hadn't the foggiest idea how to install an electrical outlet. Before 6 months ago, I'd never used a saw. My experience with tools was using a screwdriver to build a computer, and a hammer to... nail things?

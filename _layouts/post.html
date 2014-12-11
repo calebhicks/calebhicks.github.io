@@ -1,0 +1,34 @@
+{% include header.html %}
+
+<article class="blog">
+	<header class="post-meta">
+		<h1>{% if post.link %}<a href="{{ page.link }}"> {% else %} <a href="{{ page.url }}">{% endif %} {{ page.title }}</a></h1>
+		<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+	</header>
+	{{ content }}
+
+    <footer class="related-posts">
+			<div class="post-topics">
+				Topics: {% for tag in page.tags %}{% if forloop.index > 1 %}, {% endif%}<a href="tag/{{ tag }}">{{ tag }}</a>{% endfor %}
+			</div>
+		{% if site.twitter %}
+		<div class="post-meta" style="background: #dfdfdf; padding: 1px;"">
+			<p>Follow the author on <a href="http://twitter.com/{{ site.twitter }}">Twitter</a>.</p>
+		</div>
+		{% endif %}
+		{% if post.link %}<p><a href="{{ page.url }}">Permalink</a></p>{% endif %}
+    {% if site.related_posts %}
+    <h3>You may also be interested in:</h3>
+    <ul>
+        {% for post in site.related_posts limit:5 %}
+        <li><a href="{{post.url}}">{{post.title}}</a></li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    </footer>
+</article>
+
+{% if site.disqus_shortname and page.comments %}<div id="disqus_thread">{% include disqus.html %}</div><!-- /#disqus_thread -->
+{% endif %}
+
+{% include footer.html %}

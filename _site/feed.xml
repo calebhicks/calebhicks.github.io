@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">CalebHicks.com</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://www.calebhicks.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://www.calebhicks.com" />
+<updated>2014-08-05T08:37:35-06:00</updated>
+<id>http://www.calebhicks.com/</id>
+<author>
+  <name>Caleb Hicks</name>
+  <uri>http://www.calebhicks.com/</uri>
+  <email>calebhicks@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="text">From Junior High Teacher to iOS Developer</title>
+  <link href="http://www.calebhicks.com/2014/learn-12-week-coding-bootcamp/"/>
+  <id>http://www.calebhicks.com/2014/learn-12-week-coding-bootcamp</id>
+  <published>2014-08-05T07:45:00Z</published>
+  <updated>2014-08-05T07:45:00Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;I’m Caleb Hicks, a 27 year old junior high teacher out of Utah. I’ve been a &lt;a href=&quot;https://devmounta.in/?r=VOM&quot;&gt;DevMountain&lt;/a&gt; student for the past 10 weeks, here’s what I’ve learned.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-non-technical-junior-high-teacher&quot;&gt;A Non-technical Junior High Teacher&lt;/h2&gt;
+
+&lt;p&gt;I’ve been playing with technology for 20 years. I graduated from Game Boys, home-built PCs, and  Geocities sites to smartphones, a Macbook Pro, and Wordpress sites. I read TechCrunch, The Verge, and am a seasoned Twitter user. I’m the guy everyone turns to when technology fails them. Sound familiar?&lt;/p&gt;
+
+&lt;p&gt;So to say I’m entirely non-technical may be unfair. It just depends on the context. Neighborhood barbecue? Technical. Startup Weekend? Non-technical.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-a-coding-bootcamp&quot;&gt;Why a Coding Bootcamp?&lt;/h2&gt;
+
+&lt;p&gt;My high school C++ teacher took a new job right as we started digging in. I had done really well in the class, but the program was shut down shortly afterwards. Without a teacher or mentor to continue learning from, my interests shifted elsewhere. &lt;/p&gt;
+
+&lt;p&gt;I sometimes wonder how my life would be different if I had kept learning 12 years ago. So when one of my friends got involved with &lt;a href=&quot;https://devmounta.in/?r=VOM&quot;&gt;DevMountain&lt;/a&gt;, a coding bootcamp based in nearby Provo, I looked into it and decided to take a shot.&lt;/p&gt;
+
+&lt;p&gt;I had a few big questions before I committed to DevMountain.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What would I be able to learn over 12 weeks part-time?&lt;/li&gt;
+  &lt;li&gt;Would I be able to build something cool?&lt;/li&gt;
+  &lt;li&gt;Would I be embarrassed?&lt;/li&gt;
+  &lt;li&gt;Would it be worth the price?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now that I’m almost finished with my 12 weeks, I wanted to answer those questions for anyone else who has the same.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-would-i-be-able-to-learn-over-12-weeks&quot;&gt;What would I be able to learn over 12 weeks?&lt;/h3&gt;
+
+&lt;p&gt;DevMountain’s goal is to get students prepared to enter the workforce as Junior Developers. The first rung on a tall ladder to proficient software engineering. &lt;/p&gt;
+
+&lt;p&gt;I was under no illusions. A 12 week part-time coding bootcamp wasn’t going to put me on the same level as someone who has dedicated years to refining her practice as a software engineer. But having worked hard over 3 months, I’m able to speak coherently and work alongside many senior developers as I continue learning.&lt;/p&gt;
+
+&lt;p&gt;Specifically, here are a few of the things that I learned during the iOS Summer Cohort:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;UIKit&lt;/strong&gt;. Putting labels, textfields, tables and buttons on the screen using storyboards and programmatically.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Data Persistence&lt;/strong&gt;. Saving data between app launches using NSUserDefaults, Core Data, and network services.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Networking&lt;/strong&gt;. Working with data through open APIs, accessing Twitter feeds, World Cup match info, or custom APIs using Parse, NSURLSessions, and AFNetworking.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;iOS Frameworks&lt;/strong&gt;. Mapkit. Message center. Location services. Push notifications. &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Best Practices&lt;/strong&gt;. Version control. Github. Unit testing. Project architecture. MVC. Pair programming. And more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am not a master of any of those concepts. But I have experience and exposure to every one of them and I can use them to piece together some pretty cool apps.&lt;/p&gt;
+
+&lt;p&gt;Think about what you can build on iOS if you can put stuff on the screen, save data, use network services, and command the iPhone’s capabilities for sound, location, or Bluetooth LE. All of a sudden ‘I have an app idea’ turns into ‘I have a cool project I’m working on’.&lt;/p&gt;
+
+&lt;h3 id=&quot;would-i-be-able-to-build-something-cool&quot;&gt;Would I be able to build something cool?&lt;/h3&gt;
+
+&lt;p&gt;Once people heard that I was learning to make apps for iOS, I started to hear one phrase over and over again.&lt;/p&gt;
+
+&lt;p&gt;‘Hey, I have an idea for an app’&lt;/p&gt;
+
+&lt;p&gt;In mid-June, about halfway through the cohort, I heard the first idea that I thought ‘Cool, I could build that!’ So I did.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I want an app that only counts down my son’s piano practice time when he’s actually playing the piano.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My first app, &lt;a href=&quot;https://itunes.apple.com/us/app/piano-practice-timer-make/id898962127?mt=8&amp;amp;at=10lqKY&amp;amp;ct=devmtn&quot;&gt;Piano Practice Timer&lt;/a&gt;, went live on the App Store two weeks ago. It hasn’t been a smashing consumer success but it &lt;em&gt;is&lt;/em&gt; a technical success. I built an app that recorded audio from the microphone, sampled it in real time, and counted down a timer if the sound was loud enough to be a piano playing. I built a persistent settings screen, with options for practice length, timer type, e-mail reports, and a feedback form. And I built it all from scratch.&lt;/p&gt;
+
+&lt;p&gt;Pretty cool for 6-8 weeks of experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://calebhicks.com/images/caleb-hicks-piano-practice.jpg&quot; alt=&quot;Noise Timer for iOS&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;would-i-be-embarrassed&quot;&gt;Would I be embarrassed?&lt;/h3&gt;
+
+&lt;p&gt;When I first looked into DevMountain, I was worried I would hold up the class. That I would get lost and be that guy who asks the dumb questions.&lt;/p&gt;
+
+&lt;p&gt;Turns out, no one in the class was experienced. That’s why they were in the class! So there was no reason to worry about being embarrassed or slow. Those of us who put in the time and effort got a ton out of the class, and no one was holding us up. Anyone who puts in the time and effort will get as much out of the class as I did.&lt;/p&gt;
+
+&lt;h3 id=&quot;would-it-be-worth-the-price&quot;&gt;Would it be worth the price?&lt;/h3&gt;
+
+&lt;p&gt;Anyone who’s paid college tuition is used to spending thousands of dollars on education. Thinking back to my college experience, this is much better. A few reasons: I’m more interested in the subject than I am about American History. The teachers are full-time developers working in the field. The small cohort was a better environment for individualized learning. I had two great mentors ready and willing to help. And the curriculum was project-based, so we learned by doing.&lt;/p&gt;
+
+&lt;p&gt;Before I applied, my wife and I debated if the tuition was worth me finding out if I enjoyed software development. And I can wholeheartedly say that it was.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s Next?&lt;/h2&gt;
+
+&lt;p&gt;I introduced you to my first app earlier. I’ve spent the last month working on my second app. It’s called &lt;a href=&quot;http://wearewired.in&quot;&gt;Wired In&lt;/a&gt;, a modern productivity tool for Mac, iOS, and your desk. I’ve built the iOS component with UIKit, Core Data, iCloud syncing, Parse, submodules, and Core Bluetooth to communicate with an RFDuino hardware prototype I put together.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wearewired.in&quot;&gt;&lt;img src=&quot;http://calebhicks.com/images/wired_splash.png&quot; alt=&quot;We Are Wired In&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s not quite ready to go yet, but I’m hoping to announce the app launch soon. That will be followed up by an announcement for the Wired In desktop sign, to let your coworkers know that you’re in the zone and to come back when you’re on a break. I’m thrilled with the feedback I’ve gotten so far on the app and sign. If you want to learn more or get an e-mail when we launch, &lt;a href=&quot;http://wearewired.in&quot;&gt;check it out&lt;/a&gt; at &lt;a href=&quot;http://wearewired.in&quot;&gt;We Are Wired In&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions about DevMountain, the iOS Cohort, or my experience in a coding Bootcamp, &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;send me an e-mail&lt;/a&gt;, hit me up on &lt;a href=&quot;http://twitter.com/calebhicks&quot;&gt;Twitter&lt;/a&gt;, or ask me to answer your question on &lt;a href=&quot;http://www.quora.com/Caleb-Hicks&quot;&gt;Quora&lt;/a&gt; anytime. I’d love to hear from you.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/learn-12-week-coding-bootcamp/&quot;&gt;From Junior High Teacher to iOS Developer&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on August 05, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Status: Ready for Sale - The Story Behind Building My First App</title>
+  <link href="http://www.calebhicks.com/2014/status-ready-for-sale/"/>
+  <id>http://www.calebhicks.com/2014/status-ready-for-sale</id>
+  <published>2014-07-23T14:44:28Z</published>
+  <updated>2014-07-23T14:44:28Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;my-background&quot;&gt;My Background&lt;/h2&gt;
+
+&lt;p&gt;I’m a teacher by profession. I teach business, marketing, and technology to teenagers in Lehi, Utah. I’ve run a few websites in the past, and done some Wordpress consulting on the side, but prior to this summer my only real coding experience was a C++ class in high school that went from awesome to painful when the teacher took an industry job midway through the semester.&lt;/p&gt;
+
+&lt;p&gt;I often wondered what different paths my life would have taken if that teacher had stuck around and I had continued to develop my embryonic programming skills. &lt;/p&gt;
+
+&lt;p&gt;With development bootcamps sprouting up around Utah, I felt like that would be the right way to catch a glimpse of my missed opportunity.&lt;/p&gt;
+
+&lt;p&gt;I enrolled in the Web Development course through &lt;a href=&quot;http://devmounta.in/&quot;&gt;DevMountain&lt;/a&gt; for my summer break, but when they announced the iOS Course and I learned that my good friend Joshua would be writing the curriculum for it, I jumped at the chance and transferred.&lt;/p&gt;
+
+&lt;p&gt;I had done some work that ended up in the App Store before. I founded Lift Media, a niche third-party ad network with Joshua in 2011. I also collaborated with him on a couple of apps in late 2011 and early 2012. But my contributions were always web-related.&lt;/p&gt;
+
+&lt;p&gt;Class started 9 weeks ago, and today &lt;a href=&quot;https://itunes.apple.com/us/app/piano-practice-timer-make/id898962127?ls=1&amp;amp;mt=8&amp;amp;at=10lqKY&amp;amp;ct=blog&quot;&gt;my first app&lt;/a&gt; went live in the App Store.&lt;/p&gt;
+
+&lt;h2 id=&quot;piano-timer---a-noise-activated-piano-practice-timer&quot;&gt;Piano Timer - A Noise Activated Piano Practice Timer&lt;/h2&gt;
+
+&lt;p&gt;The first 4-6 weeks of class were great. Hard, but great. The first and &lt;strong&gt;most important thing we learned was how to learn&lt;/strong&gt; the iOS frameworks. &lt;/p&gt;
+
+&lt;p&gt;We worked on class projects, with great sample code and solution comparisons. We learned UIKit, data persistence, basic MVC, Core Data and networking. But what I remember most from those first weeks of class was learning where I could go to learn more and turn my ideas into code.&lt;/p&gt;
+
+&lt;p&gt;My first real experience building something extracurricular was building a simple little pomodoro app. It had started as a class project, but I built it up into a working pomodoro with project time tracking using Core Data. It was spaghetti code, and terrible, but I was proud of it.&lt;/p&gt;
+
+&lt;p&gt;I never released it (story for another post). But I was hunting for something new to build alongside the classwork. I asked around for ideas at a family reunion when three people told me independently that they wanted an app that would help time their kids’ piano practices. Not just a straight timer, but one that only counted down the time when the piano was playing.&lt;/p&gt;
+
+&lt;p&gt;My gut reaction was ‘not a huge market, but definitely an interesting project for my current skill level’. So I got to work.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-the-app&quot;&gt;Building the App&lt;/h2&gt;
+
+&lt;p&gt;I looked around online, I learned how to sample audio from the microphone for specific decibel levels, I built my basic timer view, and I had a label updating with the current decibel values before I went to bed that night.&lt;/p&gt;
+
+&lt;p&gt;‘I’ll have this done in a week!,’ I thought. Naïvete at it’s finest.&lt;/p&gt;
+
+&lt;p&gt;I kept at it. Refining my Timer class. Adding a settings page. Persisting those settings for each launch of the app. Building my own Onboarding Controller and views. Adding reporting and timer options. Putting in hours of learning, experimenting, fixing bugs, refactoring, and then doing it all over again for each change and new feature.&lt;/p&gt;
+
+&lt;p&gt;After a couple of weeks, I had something ready to submit to the store. &lt;/p&gt;
+
+&lt;h2 id=&quot;the-value-of-a-boot-camp&quot;&gt;The Value of a Boot Camp&lt;/h2&gt;
+
+&lt;p&gt;A quick aside for a moment. As I’ve gone through the bootcamp, I’ve been asked if I was really learning how to code in 12 weeks. The answer is no. You can’t master programming in 12 weeks in a part-time night class. &lt;/p&gt;
+
+&lt;p&gt;The value of the boot camp is building a foundation, working with other students on the same level, having access to mentors who can help you along the way, and most importantly… spending your own time outside of class to hone and develop those skills. You get out of it what you put into it.&lt;/p&gt;
+
+&lt;p&gt;Let me say that again. You’ll get out of a bootcamp what you put into the bootcamp.&lt;/p&gt;
+
+&lt;p&gt;Don’t expect to show up, have the instructor’s words wash over you, and start cashing checks from your high paying development job. It won’t happen. You’ll get frustrated and drop out. I promise.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-swift&quot;&gt;What About Swift?&lt;/h2&gt;
+
+&lt;p&gt;I was sitting with a talented group of iOS developers when Apple announced their new programming language, Swift. Initial reactions ranged from wild excitement to soul-searching introspection. One of them said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;My entire career just got deprecated.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I wondered the same thing. I was 5 weeks into my fancy iOS bootcamp! Was it all wasted? Should I toss everything out the window and start over with Swift?&lt;/p&gt;
+
+&lt;p&gt;No.&lt;/p&gt;
+
+&lt;p&gt;Swift is cool. I’m excited to do more with it. But Swift is the language for the next 30 years of Apple. The language of the past 30 years isn’t going to just fade away into irrelevance in the next 12 months.&lt;/p&gt;
+
+&lt;p&gt;As I’ve learned while building Noise Timer and my current capstone project… iOS development isn’t about the language. It’s about the frameworks. It’s about how Cocoa works. The language is an implementation detail. The most important things I learned still apply whether it’s Objective C or Swift.&lt;/p&gt;
+
+&lt;h2 id=&quot;app-review&quot;&gt;App Review&lt;/h2&gt;
+
+&lt;p&gt;Back to Piano Timer. I had the skeleton of an app that I felt was ready to submit to the app store. But as I got ready to submit I realized that I didn’t have an interesting user interface, a logo, an icon, or a written description for the app. &lt;/p&gt;
+
+&lt;p&gt;I was running out of time I could spend on this side-project app, because I needed to get to work on my capstone project. In a world where &lt;a href=&quot;http://shawnblanc.net&quot;&gt;Delight is in the Details&lt;/a&gt;, I was hesitant to push it live without spending more time on the little things. But, real artists ship, and it was time to move on to my next project. So I quickly put together the missing pieces, uploaded them to iTunes Connect, and submitted the app.&lt;/p&gt;
+
+&lt;p&gt;That was about a week ago. This morning the app went into review, and without a hitch was processed to go live on the store. &lt;/p&gt;
+
+&lt;p&gt;I’m happy to present my first iOS app, Piano Timer. Check it out in the &lt;a href=&quot;https://itunes.apple.com/us/app/piano-practice-timer-make/id898962127?ls=1&amp;amp;mt=8&amp;amp;at=10lqKY&amp;amp;ct=blog&quot;&gt;App Store&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-whats-next&quot;&gt;So What’s Next&lt;/h2&gt;
+
+&lt;p&gt;I’m nose-to-the-grindstone on my capstone project, which I will be presenting during Demo Night at the Adobe Building in Lehi next week. DevMountain has an &lt;a href=&quot;https://www.eventbrite.com/e/devmountain-demo-night-tickets-12096770767&quot;&gt;Eventbrite&lt;/a&gt; page set up for it, it’s free to attend, and I’d love to see you there.&lt;/p&gt;
+
+&lt;p&gt;I’m not sure where iOS development will take me in the future. But I’m thrilled with my experience so far. I’ve learned a lot. Most importantly, I’ve learned that development is something I truly enjoy. And even though it’s 12 years after my first failed development experiment, better late than never.&lt;/p&gt;
+
+&lt;p&gt;If you have any feedback, questions about how I learned, DevMountain, bootcamps, or anything else, I’m &lt;a href=&quot;http://twitter.com/calebhicks&quot;&gt;@calebhicks&lt;/a&gt; on Twitter. I’d love to hear from you.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/status-ready-for-sale/&quot;&gt;Status: Ready for Sale - The Story Behind Building My First App&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on July 23, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Learn to Code With Me</title>
+  <link href="http://www.calebhicks.com/2014/learn-to-code-with-me/"/>
+  <id>http://www.calebhicks.com/2014/learn-to-code-with-me</id>
+  <published>2014-04-07T09:21:44Z</published>
+  <updated>2014-04-07T09:21:44Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;I’ve been on the outskirts of web development for the better part of 15 years. I’ve built websites, I’ve managed servers, I’ve done side projects. If you take the entire population, I’m probably in the 98th percentile of experience with web development. &lt;/p&gt;
+
+&lt;p&gt;Which basically means I don’t know anything. &lt;/p&gt;
+
+&lt;p&gt;I’ve spent a decade and a half dipping my toes into this practice. And now it’s time for me to dive in. Sink or swim. And I’m writing today to invite you to join me.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://devmounta.in/?r=VOM&quot;&gt;DevMountain&lt;/a&gt; Web Core boot camp begins on May 6th, promising to introduce students to building their own web apps using Node, Express, Angular, etc. The 12 week course takes place on Tuesday, Wednesday, and Thursday nights from 6-9pm and Saturdays from 9am-2pm. &lt;/p&gt;
+
+&lt;h2 id=&quot;intense-weeks-of-pure-code&quot;&gt;12 Intense Weeks of Pure Code&lt;/h2&gt;
+
+&lt;p&gt;This course isn’t for those who want to dabble or experiment. It’s a 12 week boot camp. Sure, the classes are at night, so it’s convenient for those of us who have full-time jobs. But if all you do is show up to class, you won’t get much out of it. Every bit of additional effort will pay huge dividends.&lt;/p&gt;
+
+&lt;p&gt;As a teacher, I get summers off. So this is a great time for me to really get deep into this stuff.&lt;/p&gt;
+
+&lt;h2 id=&quot;its-not-cheap-but-it-is&quot;&gt;It’s not cheap. But it is.&lt;/h2&gt;
+
+&lt;p&gt;Tuition starts at $3900 for the web core, or $4500 for the newly announced iOS core. This isn’t a $39 ebook or $25 video series. There are teachers, mentors, a professional learning network to continue learning once the class is over. There is face-to-face discussions, code reviews, and Q&amp;amp;A time. And as a reward for those willing to make the cash and time investments required, DevMountain has a 95% placement rate for those wanting to get development jobs.&lt;/p&gt;
+
+&lt;p&gt;You know what the average junior developer in Utah is getting paid right now? $3900 is a great investment.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-are-you-leaving-teaching&quot;&gt;So are you leaving teaching?&lt;/h2&gt;
+
+&lt;p&gt;Not now. No. While the 2x salary is intriguing, I enjoy what I do too much to bail on it right now. I wake up excited to go to work. I get to work with kids wanting to learn technology and entrepreneurship, two things I &lt;em&gt;love&lt;/em&gt;. I’m working on a Digital Citizenship program to get kids more involved with creating, connecting, and sharing online. I get 2 weeks off for Christmas, a week for Spring Break, and 2.5 months in the summer. I get to make a difference every day.&lt;/p&gt;
+
+&lt;p&gt;I’m not ready to give that up.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-why-are-you-doing-it-again&quot;&gt;So why are you doing it again?&lt;/h2&gt;
+
+&lt;p&gt;I want to learn this stuff. I want to be able to build functional prototypes of ideas I have. I want to get to know more people in this space. I want to be able to tell students more about what’s out there. Who knows, maybe I’ll end up teaching it at the junior high sometime &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;you-said-come-learn-with-me&quot;&gt;You Said ‘Come Learn With Me’…&lt;/h2&gt;
+
+&lt;p&gt;Yes. I learn better when I know people who are in the trenches with me. So I want anyone and everyone I know to come join me at DevMountain this summer. We can learn to build stuff together.&lt;/p&gt;
+
+&lt;p&gt;Oh, and if you use this special link to register, I get a little bit of a kickback on my tuition, and I’ll use the savings to take us both to a nice dinner:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devmounta.in/?r=VOM&quot;&gt;Register for DevMountain&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Maybe you’re already signed up for DevMountain, but we don’t know each other yet. We should meet up! E-mail me, hit me up on Twitter, let’s do lunch. I’d love to know someone before the first day of class.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;We already have an awesome Computer Science teacher at Lehi Junior. But he’s super old and bound to retire any day. Hi Mike! &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/learn-to-code-with-me/&quot;&gt;Learn to Code With Me&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on April 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">How I Use Basecamp in My Classroom</title>
+  <link href="http://www.calebhicks.com/2014/basecamp-free-teachers/"/>
+  <id>http://www.calebhicks.com/2014/basecamp-free-teachers</id>
+  <published>2014-03-01T18:58:54Z</published>
+  <updated>2014-03-01T18:58:54Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;a href=&quot;http://basecamp.com&quot;&gt;Basecamp&lt;/a&gt; is an online project management tool built for collaboration. It’s been around in various forms for the better part of two decades, and it brings discussions, to-do lists, due dates and calendars into one place.&lt;/p&gt;
+
+&lt;p&gt;I had looked to use Basecamp for use in a couple of school projects, but kept putting it off because of the price. I came around after using it on a side project with a close friend who paid for it, and promptly started the 60 day free trial to see if it would fit for my work at school.&lt;/p&gt;
+
+&lt;p&gt;I was elated when on Day 55 of the trial I noticed that Basecamp had announced a &lt;a href=&quot;http://basecamp.com/teachers&quot;&gt;free plan for teachers&lt;/a&gt;. I would have happily paid when the trial ended, but I was excited I no longer needed to. When I e-mailed to get on the teacher plan, they gave me 100 simultaneous projects, normally $100/month. Thank you Basecamp!&lt;/p&gt;
+
+&lt;h1 id=&quot;how-do-i-use-basecamp-as-a-teacher&quot;&gt;How do I use Basecamp as a teacher?&lt;/h1&gt;
+
+&lt;h2 id=&quot;collaborative-course-planning&quot;&gt;&lt;strong&gt;Collaborative course planning.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I work with other teachers in the district and state to collaborate on outlines, discussions, activities, and projects. We outline the semester, discuss how things went as we teach them, and we can look back at the archived project to review how it all went when we are planning again.&lt;/p&gt;
+
+&lt;h2 id=&quot;student-collaborative-group-discussions&quot;&gt;&lt;strong&gt;Student collaborative group discussions.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Each group in my Teen Entrepreneurship class gets their own Basecamp project where they can collaborate. They discuss their projects, assign each other to-dos, and build their businesses using Basecamp. All the while, I can monitor and participate in their progress, without standing over their shoulders. This is HUGE for young teenagers who can’t drive yet. And it makes me look like a true pro when parents can take a look at all of the work their students do for my class.&lt;/p&gt;
+
+&lt;h2 id=&quot;plan-conferences-service-projects-and-other-events&quot;&gt;&lt;strong&gt;Plan conferences, service projects, and other events.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I run a chapter of FBLA at the junior high, and we use the heck out of Basecamp. We use it to plan and document regular meetings, service projects, our regional and state leadership conferences, and our business plan competitions. Each committee uses it to plan business tours, socials, and more.&lt;/p&gt;
+
+&lt;h2 id=&quot;assign-roles-and-responsibilities-for-our-student-store&quot;&gt;&lt;strong&gt;Assign roles and responsibilities for our student store.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;My Intro to Business class runs a student store at the school. We sell candy, drinks, t-shirts, etc. There are a lot of moving pieces. I assign weekly jobs using the Project Templates feature, and students get reminded the day before that they’re due to work the next day. The manager uses his Basecamp account to make sure the cashier and other employees get everything done. The cashier submits daily cash counts on Basecamp. I’ve run the store with and without Basecamp, and I definitely don’t want to go back.&lt;/p&gt;
+
+&lt;h2 id=&quot;organize-basketball-practice&quot;&gt;&lt;strong&gt;Organize basketball practice.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I am the assistant coach for the 9th grade basketball team. The head coach works in real estate, and isn’t at the school during the day. So we plan practice, review games, and send announcements using Basecamp. Most of this could be done over the phone, e-mail, or text message. But it’s nice to have a home for all of our discussions, practice plans, and gameplans. It’s cool to look back at how much we did all season. We just used Basecamp to pull off our end of year banquet as well.&lt;/p&gt;
+
+&lt;h2 id=&quot;work-with-tas&quot;&gt;&lt;strong&gt;Work with TAs.&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I have 3 TAs that help me get everything done at the school. They help prepare lessons, grade projects, and even teach some sections of class. We use Basecamp to keep track of what’s been done, and what still needs to get done. Indispensable.&lt;/p&gt;
+
+&lt;p&gt;When I started writing writing this post, I didn’t even realize how many different things I use Basecamp for. But I can definitely say that it’s become an essential part of balancing all of the different things we try and do at the school. I’m 100% confident in recommending Basecamp to all teachers. And with the new way that Basecamp is offering free plans to us in the profession, it’s an absolute no-brainer.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/basecamp-free-teachers/&quot;&gt;How I Use Basecamp in My Classroom&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on March 01, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">UDOT Super Bowl Commercial Controversy</title>
+  <link href="http://www.calebhicks.com/2014/udot-commercial/"/>
+  <id>http://www.calebhicks.com/2014/udot-commercial</id>
+  <published>2014-02-03T14:25:29Z</published>
+  <updated>2014-02-03T14:25:29Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Local news organization &lt;a href=&quot;http://www.ksl.com/?sid=28590162&amp;amp;nid=148&amp;amp;title=udot-super-bowl-commercial-stirs-controversy&amp;amp;fm=home_page&amp;amp;s_cid=featured-1&quot;&gt;KSL reports&lt;/a&gt; on the controversy surrounding the UDOT commercial that played during the super bowl:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Despite the intended message urging people to use their seat belts every time they get into a car, a number of people have criticized the commercial, saying it is not appropriate for children to see.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Pushing you to have a tough discussion about the realities of seat belt use with your 4 and 7 year olds is &lt;strong&gt;exactly&lt;/strong&gt; what this commercial was designed to do. If your child is upset about it, have the discussion, and decide as a family that this isn’t going to happen to you.&lt;/p&gt;
+
+&lt;p&gt;I had 2 good friends die from car accidents while I was in elementary school. Children dying in accidents without seat belts&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; is a harsh reality, and I applaud anything that increases dialogue and awareness, especially if it ends up saving a life.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We really wanted to spark some conversation between families and maybe inspire someone who hasn’t worn their seat belt to start doing so.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Brilliant. Mission accomplished.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Either the child himself, or other people in the vehicle, as this commercial discusses &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/udot-commercial/&quot;&gt;UDOT Super Bowl Commercial Controversy&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on February 03, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Startup Weekend Provo: A Personal Invitation</title>
+  <link href="http://www.calebhicks.com/2014/invitation-startup-weekend-provo/"/>
+  <id>http://www.calebhicks.com/2014/invitation-startup-weekend-provo</id>
+  <published>2014-01-31T07:53:57Z</published>
+  <updated>2014-01-31T07:53:57Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;No talk, all action. Launch a startup in 54 hours.&lt;/p&gt;
+
+&lt;p&gt;That’s the mission of &lt;a href=&quot;http://startupweekend.org&quot;&gt;Startup Weekend&lt;/a&gt;, a global event focused on building communities of entrepreneurs.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-startup-weekend-experience&quot;&gt;My Startup Weekend Experience&lt;/h2&gt;
+
+&lt;p&gt;I went to my first Startup Weekend in November hosted at the beautiful Weber State &lt;a href=&quot;http://www.startupogden.com/&quot;&gt;Startup Ogden&lt;/a&gt; extension. I worked with an awesome team, including &lt;a href=&quot;http://twitter.com/jkhowland&quot;&gt;Joshua Howland&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/a_harris88&quot;&gt;Adam Harris&lt;/a&gt;, &lt;a href=&quot;http://twitter.com/cwoodcox&quot;&gt;Corey Woodcox&lt;/a&gt;, and many of the great people at &lt;a href=&quot;http://builtbyhq.com&quot;&gt;HQ&lt;/a&gt;. We worked on &lt;a href=&quot;http://statiq.io&quot;&gt;Statiq&lt;/a&gt;, helping people build beautiful, ridiculously fast websites using static blogging engines. &lt;/p&gt;
+
+&lt;p&gt;In one weekend we were able to build our first two themes, a beta web interface for managing your site, an iOS app for the same purpose, and a syncing engine for hosting your static HTML blog on AWS using nothing more than text files inside of a Dropbox folder.&lt;/p&gt;
+
+&lt;p&gt;And, in an eye-opening launch&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, we sold over $1000 worth of memberships our last evening of the weekend.&lt;/p&gt;
+
+&lt;h2 id=&quot;startup-weekend-provo&quot;&gt;Startup Weekend Provo&lt;/h2&gt;
+
+&lt;p&gt;I met so many cool people and had such a great time at my first Startup Weekend, I decided I wouldn’t miss another one if it were nearby. So, even though my (for another 72ish hours) unborn son will be only 3 weeks old, my wife has graciously given me permission to head to Provo for the event.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested in meeting other awesome people in the Utah technology or startup communities, you can do much worse than Startup Weekend Provo. I’ll be there. A couple of my students will be there. And so will a hundred or more other really stellar people from around the state.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-personal-invitation&quot;&gt;My Personal Invitation&lt;/h2&gt;
+
+&lt;p&gt;I’m going to pitch my first idea this time around. Everyone that attends gets the opportunity to invite people to their project, and the top 10 or so projects continue working through the weekend. I don’t know if my idea will be one of those 10 that get selected, and if not, I’ll find something else cool to work on.&lt;/p&gt;
+
+&lt;p&gt;I’ll be pitching my idea for an education tipline. You know those banners at football games that say ‘Text 55555 for assistance or to report an incident’? That, but for middle and high schools. I live in this world every day, and while it’s not the next billion dollar darling, I am confident that there is a problem worth solving here, and I have all of the connections to local prospects so that we can build the right solution.&lt;/p&gt;
+
+&lt;p&gt;If you’re into, or interested in learning about any of the following, I’d love to see you at Startup Weekend:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Backend development (Rails, Django, Node, whatever)&lt;/li&gt;
+  &lt;li&gt;Frontend design (Photoshop, Bootstrap, jQuery, HTML5, CSS3, etc)&lt;/li&gt;
+  &lt;li&gt;Twilio&lt;/li&gt;
+  &lt;li&gt;Stripe&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And even if you aren’t, or you want to work on something else, you should come out to Startup Weekend just for the experience. It’s a great time with great people. And if you’re into tech or startups, I can guarantee an experience you won’t forget&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Early Bird registration ends today. It’s $49. It goes up to $75 up until the event begins on February 20th. Find out more details or get your ticket at &lt;a href=&quot;https://www.eventbrite.com/e/provo-startup-weekend-022014-tickets-10073172129?&quot;&gt;EventBrite&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’re going, interested in going, or have any questions before registering, shoot me a message on &lt;a href=&quot;http://twitter.com/calebhicks&quot;&gt;Twitter&lt;/a&gt;. I love hearing from and working with other tech and startup people in Utah.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Build something, launch it to the world, and have over 100 people from New Zealand to Japan give you money for it. This was my first hands-on experience watching this happen in one evening. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Not affiliated, just a fan. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/invitation-startup-weekend-provo/&quot;&gt;Startup Weekend Provo: A Personal Invitation&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 31, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Hard Work Beats Talent</title>
+  <link href="http://www.calebhicks.com/2014/hard-work-beats-talent/"/>
+  <id>http://www.calebhicks.com/2014/hard-work-beats-talent</id>
+  <published>2014-01-30T10:26:34Z</published>
+  <updated>2014-01-30T10:26:34Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;I have a volunteer helping out a couple of days each week in my classroom. We are working with students to prepare for FBLA’s Desktop Publishing competition, and she was demonstrating Photoshop to create a menu for our school store. &lt;/p&gt;
+
+&lt;p&gt;As she walked through the tools, I kept wondering why she was doing things in her specific way. For example, filling marquee rectangles instead of the rectangle tool. But when she finished, she had created something much better than I would have. And even more important, so had many of the students she was teaching. &lt;/p&gt;
+
+&lt;p&gt;Technique, skill, and experience are great. They are multipliers. But work is the &lt;a href=&quot;http://dictionary.reference.com/browse/multiplicand?s=t&quot;&gt;multiplicand&lt;/a&gt;. When you have work and talent, magic happens. But if you can only have one, take the work. The novice who shows up and puts in work will trump the lazy guru. &lt;/p&gt;
+
+&lt;p&gt;We just completed our $5 Weekend activity in my Teen Entrepreneurship class. The students are given $5 seed money and 48 hours to make as much money as they can &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Students sold candy, cleaned homes, baked cookies, even sold thrift shop finds on eBay. During our breakdown discussion, I asked the students what they learned:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If I need money, I can make it. But &lt;em&gt;I have to go and do something&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yep.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;This assignment is one of the highlights of each semester. It’s modified from Tina Seelig’s similar project she gives to her classes in her Innovation course at Stanford. The project is described in greater detail in &lt;a href=&quot;http://www.amazon.com/dp/B0028MVGZQ/?tag=calebhicks-20&quot;&gt;her book&lt;/a&gt;. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/hard-work-beats-talent/&quot;&gt;Hard Work Beats Talent&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 30, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">First World Problems Can Still Be Monetized</title>
+  <link href="http://www.calebhicks.com/2014/first-world-problems-monetize/"/>
+  <id>http://www.calebhicks.com/2014/first-world-problems-monetize</id>
+  <published>2014-01-28T14:34:52Z</published>
+  <updated>2014-01-28T14:34:52Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;I taught my students about how to brainstorm business ideas today. We focused on looking for problems in need of a solution, and that great entrepreneurs are always looking for problems to solve.&lt;/p&gt;
+
+&lt;p&gt;We first talked about solutions that seem obvious now, but weren’t when they were first introduced - the car, the cell phone, breakfast cereal. We talked about primary and secondary ‘problems’ that products can solve. For example, how the car can be much more than a transportation solution; a pastime, a butt warmer, a status symbol.&lt;/p&gt;
+
+&lt;p&gt;But then we started to get into more contemporary ideas. We looked at social media: Facebook, Snapchat, Twitter&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. &lt;/p&gt;
+
+&lt;p&gt;Helping college kids with an easier way to connect online? Letting you send self-destructing photos to others? 140 character microblogs?&lt;/p&gt;
+
+&lt;p&gt;A student raised his hand.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Aren’t these super first-world problems?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yes, they are. Not every business has to solve problems for the second or third worlds. In fact, most businesses don’t. People will happily pay for something that solves a minor annoyance. Here are the tips I gave to the class, from a post by &lt;a href=&quot;http://chrisguillebeau.com/3x5/two-problems/&quot;&gt;Chris Guillebeau&lt;/a&gt; in April of last year:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A solution to a problem&lt;/li&gt;
+  &lt;li&gt;A response to a clear need&lt;/li&gt;
+  &lt;li&gt;Something that makes people happier&lt;/li&gt;
+  &lt;li&gt;Something that removes a negative&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It’s awesome if you can solve world hunger, cure disease, or dig wells for clean water. These missions for humanity need our world’s brightest minds. But most businesses today are solving first world problems. For better or worse, it’s a natural result of people with first world incomes being able to pay for solutions to first world problems.&lt;/p&gt;
+
+&lt;p&gt;Don’t shy away from solving ‘first world problems’. People are happy to pay for the right solution.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Because they monetize eyeballs and impressions, they aren’t exactly models of monetizing first world problems directly, but great examples of building multibillion dollar businesses around first world problems. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/first-world-problems-monetize/&quot;&gt;First World Problems Can Still Be Monetized&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 28, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Dropbox Referrals Giveaway [Updated]</title>
+  <link href="http://www.calebhicks.com/2014/1314-dropbox-referral/"/>
+  <id>http://www.calebhicks.com/2014/1314-dropbox-referral</id>
+  <updated>2014-01-15 18:31:20 UTCT00:00:00-00:00</updated>
+  <published>2014-01-15T10:40:20Z</published>
+  
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Each semester I have over 100 students create new Dropbox accounts. I’ve used this to max out my Dropbox referrals, and have also done so with a number of close friends.&lt;/p&gt;
+
+&lt;p&gt;This year, I’m opening it up a little bit. I can probably help max out 5-10 of you on your referral credits for Dropbox. &lt;/p&gt;
+
+&lt;p&gt;If you are interested, send me an &lt;a href=&quot;http://twitter.com/calebhicks&quot;&gt;@reply&lt;/a&gt; on Twitter with your Dropbox referral link, and while you’re there, give me a follow. I talk tech, business, and education.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/intent/tweet?screen_name=calebhicks&quot; class=&quot;twitter-mention-button&quot; data-lang=&quot;en&quot;&gt;Tweet to @calebhicks&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=&quot;https://platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: I got more than enough for class tomorrow. I’ll post again next time I’m getting classes set up. Thanks for the feedback everyone!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/1314-dropbox-referral/&quot;&gt;Dropbox Referrals Giveaway [Updated]&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Taking Chances and Being OK With Failure</title>
+  <link href="http://www.calebhicks.com/2014/responding-to-failure/"/>
+  <id>http://www.calebhicks.com/2014/responding-to-failure</id>
+  <published>2014-01-08T19:29:09Z</published>
+  <updated>2014-01-08T19:29:09Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Everyone fails. But it’s not the failure that defines you, it’s how you respond. &lt;/p&gt;
+
+&lt;p&gt;I coach the 9th grade boys basketball team at my school. We’ve worked together for three months to get better. Today the boys faced a talented team in a winnable game. Starting down by 15 in the second quarter, they fought back to within one late in the game. They had two looks in the last ten seconds to pull out a victory and missed both shots. &lt;/p&gt;
+
+&lt;p&gt;Failure.&lt;/p&gt;
+
+&lt;p&gt;But as a coach, I’m OK with failure. It’s a learning opportunity. It’s a stepping stone towards greatness. Remember, it’s how you respond to failure that defines you. &lt;/p&gt;
+
+&lt;p&gt;Those kids could have given up after the first quarter. Or after one was shoved into the wall by a guy 6 inches and 100 pounds bigger. Or when one was forced to foul out of the game with 3.5 seconds left. But not these kids. They secured a rebound and got another &lt;em&gt;good&lt;/em&gt; opportunity before time expired. &lt;/p&gt;
+
+&lt;p&gt;They fought back. They didn’t give up. When the odds were against them, they kept going. &lt;/p&gt;
+
+&lt;h2 id=&quot;how-about-afterwards&quot;&gt;How about afterwards?&lt;/h2&gt;
+
+&lt;p&gt;As the player who took the last two shots walked off the court, upset with his performance, his teammates corralled him, let him know they were glad he took those shots. He turned to a teammate and said, “let’s get better.”&lt;/p&gt;
+
+&lt;p&gt;Failure is a prevalent force in sports, in education, in startups. But if we work hard to get there, and take it as a learning lesson afterwards, we turn failure into a step on the bridge to success. &lt;/p&gt;
+
+&lt;h2 id=&quot;the-failure-resume&quot;&gt;The Failure Resume&lt;/h2&gt;
+
+&lt;p&gt;Tina Seelig, author of What I Wish I Knew When I Was 20, and Stanford professor, invites her students to create a Failure Resume to encourage them to learn from mistakes. &lt;/p&gt;
+
+&lt;p&gt;I have taken and modified this same activity with the students in my Teen Entrepreneurship class. 10 slides with either a photo or single sentence describing failures they’ve experienced. I’ve encouraged them to think outside my class, outside school entirely. Failures can be academic, athletic, social, familial, entrepreneurial, etc.&lt;/p&gt;
+
+&lt;p&gt;When the students present, they will look at each experience and describe what they learned from it, or advise others on how to avoid doing the same. &lt;/p&gt;
+
+&lt;p&gt;A couple of students have shared their decks with me already, and I am eagerly anticipating presentation day. &lt;/p&gt;
+
+&lt;p&gt;Far too many of us are ashamed of past failures, swept under the rug in an attempt to divert attention. But showing how we have survived, and even learned from failure is a far greater testament to our character than success. Remember, it’s the before and after that matters, and failure is only permanent if you give up. &lt;/p&gt;
+
+&lt;h2 id=&quot;if-youre-not-failing&quot;&gt;If You’re Not Failing…&lt;/h2&gt;
+
+&lt;p&gt;If you’re not failing regularly, you’re not trying hard enough. You’re not giving yourself the chance to win. It’s time to develop a system to deal with failure. Anticipate it. Learn from it. Get better.&lt;/p&gt;
+
+&lt;p&gt;What’s on your Failure Resume? How has that helped you reach greater success?&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/responding-to-failure/&quot;&gt;Taking Chances and Being OK With Failure&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 08, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">It's OK to Watch TV</title>
+  <link href="http://www.calebhicks.com/2014/watching-TV/"/>
+  <id>http://www.calebhicks.com/2014/watching-TV</id>
+  <updated>2014-01-08 09:47:33 UTCT00:00:00-00:00</updated>
+  <published>2014-01-07T20:04:33Z</published>
+  
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;The stigma around watching TV during leisure time rubs me the wrong way. Somehow, enjoying TV in any capacity has become the villain of leading a happy, successful, productive life. I strongly disagree. Like any form of art, TV can enrich, enliven, even inspire. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Did he just call TV an art form?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yes. Art. The time, passion, sweat, and tears that go into creating some programs goes beyond that of the great classical books, music, and visual arts. &lt;/p&gt;
+
+&lt;p&gt;Of course, for every classic novel there are a thousand self-published pieces not worth your time. Similarly, there is a lot of cruft to dig through to uncover any great song, photo, or movie. Such is art. The truly great ones, the ones worth your time and intellectual investment, are rare. &lt;/p&gt;
+
+&lt;p&gt;I admit that TV can overtake too much time and mental energy. For some, it saps the brain of emotion and independent thought. I don’t write in support of zoning out, mindlessly spending your hours at the screen in the living room. &lt;/p&gt;
+
+&lt;p&gt;I write of those who heavily invest ourselves in our interests, who dive in to in a great storyline. Those whose brains race during a well-executed reveal, whose hearts rise and fall with the success and failures of top-shelf character development. &lt;/p&gt;
+
+&lt;p&gt;For those, watching TV isn’t passive, it exercises the mind. It isn’t shutting doors to the outside world, it opens new platforms for social discourse. &lt;/p&gt;
+
+&lt;p&gt;Just like a Shakespearian play, a Beethoven symphony, or a Dickensian Classic. &lt;/p&gt;
+
+&lt;p&gt;So don’t apologize because you take time away from work, side projects, or other endeavors to watch a show. You can be successful, happy, and productive, even if you watch TV. Perhaps more so, for enriching your life with the art of masters. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; &lt;a href=&quot;http://jkhowland.me&quot;&gt;Joshua Howland&lt;/a&gt;, friend of the site, and a prolific self-taught developer, responded by e-mail this morning:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I think learning to program, writing a book, or shipping an app as a side project often comes at the cost of your leisure time. So sometimes I go months without TV. I sincerely think it’s a decrease in my quality of life when that happens. But we often have to sacrifice enjoyment in life to accomplish something creative.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well put, and an excellent counterpoint to mine. Setting priorities is the key. Sacrificing leisure time in order to &lt;a href=&quot;http://www.calebhicks.com/2014/hacer-ratio/&quot;&gt;make more&lt;/a&gt; is a worthy pursuit. We must find that fine balance between creating and overworking. One is a healthy endeavor, while the other induces stress and frustration.&lt;/p&gt;
+
+&lt;p&gt;In short, spend your time on what makes you happy and enriches your life.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/watching-TV/&quot;&gt;It's OK to Watch TV&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 07, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">The Argument for and Against Graduating Early With College Credit</title>
+  <link href="http://www.calebhicks.com/2014/graduating-early-ucas/"/>
+  <id>http://www.calebhicks.com/2014/graduating-early-ucas</id>
+  <published>2014-01-06T19:18:59Z</published>
+  <updated>2014-01-06T19:18:59Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;One of the &lt;a href=&quot;http://www.uvu.edu/&quot;&gt;local universities&lt;/a&gt; offers a program where students can take concurrent enrollment classes that count towards both high school and general ed college credits. This is a great way to graduate high school with a transferable associate’s degree in tow. &lt;/p&gt;
+
+&lt;p&gt;I had a student ask me what I thought of the program. He is about to register for 10th grade and is considering applying to it. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No way&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.ucas-edu.net/&quot;&gt;UCAS&lt;/a&gt; is a great program. Very successful students go through the program and exit high school two years ahead of their college-bound peers. It has a focus on Science, Technology, Engineering, and Math. All of which I strongly encourage students to take. So why wouldn’t I recommend it?&lt;/p&gt;
+
+&lt;p&gt;It’s simple. This kid is social, outgoing, and would miss some of the amazing opportunities high school offers. He would miss out on clubs, sporting events, dances, student government, and more. &lt;/p&gt;
+
+&lt;p&gt;High school isn’t for everyone. In fact, some very successful people skip right over it. But there are other ways to get ahead in schooling if that is the goal. &lt;/p&gt;
+
+&lt;p&gt;I graduated from my high school with nearly 45 credits under my belt. We had CP classes, similar to classes that offer AP credit, but without the required test. I also took half-days during my senior year to go down to the local universities and take classes. I didn’t have to go to a separate building two cities away from all of my friends and extra-curricular activities. And even though the first two years of high school were hard, my junior and senior years were some of the most fun of my life. &lt;/p&gt;
+
+&lt;p&gt;Rushing through college is a sucker’s game if you don’t know what you want to get out of it. I rushed to finish my degree. I had no clue what I wanted to do, I only knew that I wanted to graduate ASAP. &lt;/p&gt;
+
+&lt;p&gt;While I love my career choice, I fell into it rather than discovered it as a perfect fit for me. I didn’t take my time to find out what I wanted to do. I followed a trail set by a family of educators. Heck. I almost changed my major to accounting one semester before graduating in Business Education. (Happy to say I dodged a major bullet there.)&lt;/p&gt;
+
+&lt;p&gt;UCAS and other programs that help you get ahead are great if you know what you want to do with that degree. It’s a great way to save money on college tuition, and it can be a great fit if the typical high school scene just isn’t for you. To those students, I heartily endorse UCAS and similar programs. &lt;/p&gt;
+
+&lt;p&gt;But if you are the type of person who will get involved in clubs, dance, drama, student government; or if you enjoy getting to know new people, dating, dances, care-free drives with your friends; or if you just need a little more time to figure out who you are and what you want to become; find other ways to get ahead that allow you to still be a part of your high school. It just may be some of the best years of your life. &lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/graduating-early-ucas/&quot;&gt;The Argument for and Against Graduating Early With College Credit&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 06, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">The Hacer Ratio</title>
+  <link href="http://www.calebhicks.com/2014/hacer-ratio/"/>
+  <id>http://www.calebhicks.com/2014/hacer-ratio</id>
+  <published>2014-01-05T10:18:12Z</published>
+  <updated>2014-01-05T10:18:12Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;&lt;a href=&quot;http://randsinrepose.com/archives/the-builders-high/&quot;&gt;Rands&lt;/a&gt; has me pegged:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You’re swimming in everyone else’s moments, likes, and tweets and during these moments of consumption you are coming to believe that their brief interestingness to others makes it somehow relevant to you and worth your time… Each one you experience, each one you consume, is a moment of your life that you’ve spent forever… These are other people’s moments.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve spent time reflecting on how I spend my time and if that reflects what I want my life to be. Too often, it doesn’t.&lt;/p&gt;
+
+&lt;p&gt;It is too easy to slip into my Twitter stream and feel like I accomplished something, or let an hour pass in Pocket on inconsequential moments.&lt;/p&gt;
+
+&lt;p&gt;I’ve been thinking about the Spanish word &lt;em&gt;hacer&lt;/em&gt; lately. It’s an interesting word in that it has two distinct English translations. It means ‘to do’ &lt;em&gt;and&lt;/em&gt; ‘to make’. So if I ask you ‘¿que estas haciendo?’ I am asking what you’re doing/making. I’ve been thinking about my life’s ratio of doing vs. making, or The Hacer Ratio.&lt;/p&gt;
+
+&lt;p&gt;How often am I &lt;em&gt;doing&lt;/em&gt; something but not &lt;em&gt;making&lt;/em&gt; something? And am I OK with that relationship?&lt;/p&gt;
+
+&lt;p&gt;Some things that I &lt;em&gt;do&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read through RSS feeds  &lt;/li&gt;
+  &lt;li&gt;Show up to school to teach  &lt;/li&gt;
+  &lt;li&gt;Watch TV with my wife  &lt;/li&gt;
+  &lt;li&gt;Listen to podcasts  &lt;/li&gt;
+  &lt;li&gt;Observe while my daughter plays  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Things I’m not &lt;em&gt;making&lt;/em&gt; when doing the above:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Writing here, in my journal, or anywhere else  &lt;/li&gt;
+  &lt;li&gt;A difference to individual students, or my classes as a whole  &lt;/li&gt;
+  &lt;li&gt;A healthier, stronger marriage  &lt;/li&gt;
+  &lt;li&gt;Connections or new ideas that only come with a relaxed, undistracted brain  &lt;/li&gt;
+  &lt;li&gt;A strong, lasting relationship that enriches my life and pays dividends when my daughter is older  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I find myself going through the motions, letting life happen to me instead of making mindful decisions. Too often I sit idly by &lt;em&gt;doing&lt;/em&gt; things without consequence, instead of taking action to &lt;em&gt;make&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m making changes around here. Eliminating distractions that enable &lt;em&gt;doing&lt;/em&gt; and focusing on &lt;em&gt;making&lt;/em&gt;. I am going for new addictive highs that come from building instead of observing. I am tipping the Hacer Ratio from &lt;em&gt;do&lt;/em&gt; to &lt;em&gt;make&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;Hoy, que estas haciendo?&lt;br /&gt;
+What are you &lt;em&gt;making&lt;/em&gt; today?&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/hacer-ratio/&quot;&gt;The Hacer Ratio&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 05, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Unlock Your iPad for Free Data on T-Mobile's 200MB/mo Plan</title>
+  <link href="http://www.calebhicks.com/2014/use-ipad-on-tmobile-free-200mb/"/>
+  <id>http://www.calebhicks.com/2014/use-ipad-on-tmobile-free-200mb</id>
+  <published>2014-01-03T16:46:16Z</published>
+  <updated>2014-01-03T16:46:16Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Beginning with the iPad Air in November of 2013, T-Mobile began offering a free 200MB/mo data plan for iPad owners.&lt;/p&gt;
+
+&lt;p&gt;While great for iPad Air owners, this is also exciting news because the same plan works on any LTE enabled iPad. The Verizon and AT&amp;amp;T iPads both come unlocked, so all you have to do is get a T-Mobile SIM card to take advantage.&lt;/p&gt;
+
+&lt;p&gt;T-Mobile’s data is great in some areas, and not-so-great in most. But if you live in an area where T-Mobile has LTE or HSPA+, this is worth checking out.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Why-use-T-Mobile-for-data--sm.png&quot; alt=&quot;T-Mobile data plan details for iPad Air&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Why-use-T-Mobile-for-data-.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-order-a-t-mobile-sim-card&quot;&gt;Step 1: Order a T-Mobile SIM Card&lt;/h2&gt;
+
+&lt;p&gt;First step is to pick up a T-Mobile SIM card. You can do so online at T-Mobile.com.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Micro-SIM-Card-Activation-Kit-No-Annual-Contract&quot;&gt;Micro SIM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://prepaid-phones.t-mobile.com/prepaid-phone/T-Mobile-Nano-SIM-Card-Prepaid&quot;&gt;Nano SIM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check below to see which SIM card you need for your device, or view the &lt;a href=&quot;http://support.apple.com/kb/HT5554&quot;&gt;source Apple documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Step-1--Order-a-T-Mobile-SIM-Card-sm.png&quot; alt=&quot;SIM Card diagram for iPad models&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Step-1--Order-a-T-Mobile-SIM-Card.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2-replace-your-old-att-or-verizon-sim-card&quot;&gt;Step 2: Replace Your Old AT&amp;amp;T or Verizon SIM Card&lt;/h2&gt;
+
+&lt;p&gt;Our next step is to replace the AT&amp;amp;T or Verizon SIM card with the new one from T-Mobile. Find a paperclip to eject the SIM card on your iPad casing.&lt;/p&gt;
+
+&lt;p&gt;Your iPad will notify you that there is No SIM Card Installed, as pictured:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Step-2--Replace-Your-Old-AT-T-or-Verizon-SIM-Card.png&quot; alt=&quot;No SIM Card Installed&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3-insert-your-new-t-mobile-sim-card&quot;&gt;Step 3: Insert Your New T-Mobile SIM Card&lt;/h2&gt;
+
+&lt;p&gt;Place the new T-Mobile SIM card into the tray and insert it into your iPad. Wait a few moments while the iPad activates the SIM card, and you’ll get a T-Mobile signal as pictured below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Step-3--Insert-Your-New-T-Mobile-SIM-Card.png&quot; alt=&quot;T-Mobile SIM Card activated&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4-set-up-your-t-mobile-sim-card-account&quot;&gt;Step 4: Set Up Your T-Mobile SIM Card Account&lt;/h2&gt;
+
+&lt;p&gt;Open up Safari and navigate to any page. You will be redirected to the T-Mobile Mobile Internet Management account system. Set up a new account (FREE!), and you’ll be all set.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/unlock-your-ipad-for-free-data-on-t-mobile-s-200mb-mo-plan/Step-4--Set-Up-Your-T-Mobile-SIM-Card-Account.png&quot; alt=&quot;Set Up Your T-Mobile Account&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-5-enjoy-your-free-200mbmo&quot;&gt;Step 5: Enjoy Your Free 200MB/mo&lt;/h2&gt;
+
+&lt;p&gt;200MB/mo isn’t going to let you stream Netflix or Spotify, but it is plenty to check e-mail, Twitter, and surf the web when you don’t have Wi-Fi.&lt;/p&gt;
+
+&lt;p&gt;If you need more data, you can buy more from T-Mobile, or quickly swap your AT&amp;amp;T or Verizon card back into the iPad and use either of those.&lt;/p&gt;
+
+&lt;p&gt;Have fun!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/use-ipad-on-tmobile-free-200mb/&quot;&gt;Unlock Your iPad for Free Data on T-Mobile's 200MB/mo Plan&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 03, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Beyond Resolutions</title>
+  <link href="http://www.calebhicks.com/2014/beyond-resolutions/"/>
+  <id>http://www.calebhicks.com/2014/beyond-resolutions</id>
+  <published>2014-01-01T11:09:23Z</published>
+  <updated>2014-01-01T11:09:23Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;We are not optimized for change, and resolutions based on a five minute brainstorm when the calendar flips won’t fix that. Writing down resolutions is a great start, but it’s just that, a start. It’s comparable to saying you’re going to run a marathon. You have to register for a race, make a training plan, and follow it for the duration, if you want to make it to an actual race, let alone stand a chance of running 26.2 miles. It requires concerted effort to create systems and design new habits into your life. &lt;/p&gt;
+
+&lt;p&gt;Regular people sit down around this time of year and write out a few things they hope get better in their lives. Most are lucky if they spend more than 15 minutes going through the ‘Resolution’ process.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“I want to lose 15 pounds”&lt;/li&gt;
+  &lt;li&gt;“I’m going to keep my apartment clean”&lt;/li&gt;
+  &lt;li&gt;“I will go out on 25 dates with my wife”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And that’s that. The goals, if written down, end up in a drawer or in the garbage. And that is why most resolutions don’t work.&lt;/p&gt;
+
+&lt;h2 id=&quot;taking-the-time&quot;&gt;Taking the Time&lt;/h2&gt;
+
+&lt;p&gt;Chris Guillebeau writes a great series every December about his &lt;a href=&quot;http://chrisguillebeau.com/3x5/category/annual-review/&quot;&gt;Annual Review process&lt;/a&gt;. He takes weeks to map out the year ahead, setting specific objectives, considering unexpected obstacles, planning for dependencies, and creating systems (we’ll get to systems in a minute) to make his vision a real possibility.&lt;/p&gt;
+
+&lt;p&gt;Chris’ annual review series is beyond the scope of this post, but if you want a great place to start with setting up for a great year, go read it.&lt;/p&gt;
+
+&lt;p&gt;The lesson learned from Chris is that he takes weeks, not minutes, to craft his vision for the year to come. Not everyone can do a multi-week planning session, but at the very least you can take a weekend.&lt;/p&gt;
+
+&lt;h2 id=&quot;using-systems-to-improve-your-odds&quot;&gt;Using Systems to Improve Your Odds&lt;/h2&gt;
+
+&lt;p&gt;High achievers use systems to improve their odds of success. Systems make up for our lack of willpower, and they are usually automated. The difference between a goal and a system is as follows:&lt;/p&gt;
+
+&lt;h4 id=&quot;goal-i-want-to-save-10-of-my-income&quot;&gt;Goal: I want to save 10% of my income&lt;/h4&gt;
+
+&lt;h4 id=&quot;system-10-of-my-paycheck-is-automatically-deposited-into-a-separate-online-savings-account-each-month&quot;&gt;System: 10% of my paycheck is automatically deposited into a separate online savings account each month&lt;/h4&gt;
+
+&lt;p&gt;See? I don’t have to want to save 10% of my income in August. I don’t have to log in to my bank’s website and move 10% over to my savings account. When I wake up on the 5th, 90% of my income is sitting in my checking account, and 10% is in a separate online savings account. &lt;/p&gt;
+
+&lt;p&gt;Total willpower required: none.&lt;/p&gt;
+
+&lt;p&gt;Research in behavioral change shows that information alone isn’t enough to motivate us. Researching weight loss doesn’t create a calorie deficit that burns fat. Learning about marathon training doesn’t tie your shoes and get your feet on the pavement. Having a list of resolutions &lt;em&gt;isn’t enough&lt;/em&gt; to achieve them. &lt;/p&gt;
+
+&lt;p&gt;When you are designing your upcoming year, leave time to create systems that will eliminate the need for willpower. Automate as much as you can. Use tools like &lt;a href=&quot;http://omnigroup.com/omnifocus&quot;&gt;Omnifocus&lt;/a&gt;, &lt;a href=&quot;http://ifttt.com&quot;&gt;IFTTT&lt;/a&gt;, or &lt;a href=&quot;http://www.keyboardmaestro.com/main/&quot;&gt;Keyboard Maestro&lt;/a&gt; to manage projects, send reminders, or automate your computer contexts to help. &lt;/p&gt;
+
+&lt;p&gt;Let’s look at a few more examples of systems towards a specific goal:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;goal-lost-15-pounds-by-august&quot;&gt;Goal: Lost 15 pounds by August.&lt;/h4&gt;
+
+&lt;p&gt;This is a super common resolution, and one that most people fail year after year. What are some systems we can put in place that will eliminate the need for willpower to get this done?&lt;/p&gt;
+
+&lt;h4 id=&quot;system-automate-food-and-activity-tracking&quot;&gt;System: Automate food and activity tracking.&lt;/h4&gt;
+
+&lt;p&gt;Use a device like the Fitbit or Fuelband to automate activity tracking. You can set the devices to vibrate or alert you to milestones during the day. Sitting down for 20 minutes? Fuelband will tell you to get up and move. Play basketball with some friends? Fitbit keeps track and credits you for it.&lt;/p&gt;
+
+&lt;p&gt;You can use apps like My Fitness Pal to enter what you ate for each meal. Eliminate some of the required willpower for this by setting automatic reminders every 2 hours to enter anything you’ve eaten.&lt;/p&gt;
+
+&lt;h4 id=&quot;system-hire-a-bi-weekly-personal-trainer-at-your-local-gym&quot;&gt;System: Hire a bi-weekly personal trainer at your local gym.&lt;/h4&gt;
+
+&lt;p&gt;This eliminates required willpower by creating a commitment. You’ve now paid for the obligation to be at the gym at a specific time. You’ve also paid for the opportunity to feel super embarrassed if you don’t do anything to improve your health in between those bi-weekly visits.&lt;/p&gt;
+
+&lt;h4 id=&quot;system-commit-with-a-friend-to-go-on-a-weekly-bike-ride-on-saturday-mornings&quot;&gt;System: Commit with a friend to go on a weekly bike ride on Saturday mornings.&lt;/h4&gt;
+
+&lt;p&gt;You are making a personal commitment to be somewhere with someone important to you at a specific time. Odds are, you won’t unplug the alarm when it goes off at 7AM on Saturday.&lt;/p&gt;
+
+&lt;h4 id=&quot;system-ask-your-server-to-box-half-of-your-meal-before-bringing-it-to-the-table-when-you-go-out-to-eat&quot;&gt;System: Ask your server to box half of your meal before bringing it to the table when you go out to eat.&lt;/h4&gt;
+
+&lt;p&gt;How often do we eat because the food is sitting there in front of us? Eliminate the need for willpower by getting half of your meal boxed to go before you even sniff it. You’d feel foolish digging into your styrofoam box at the table, so you won’t do it.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;With 15 minutes extra minutes, you have a solid foundation to build on. The vague ‘Lose 15 pounds’ has now presented specific action items, many of which you can set up once and get repeated benefits down the line. Have you lost any weight because you thought through this? Not yet. But you now have a map instead of a destination.&lt;/p&gt;
+
+&lt;h2 id=&quot;identify-new-habits-and-learn-how-to-build-them&quot;&gt;Identify New Habits, and Learn How to Build Them&lt;/h2&gt;
+
+&lt;p&gt;It is useful to look at goals as building a new set of habits, but habits are hard to make (or break) for most people. When you are setting resolutions or goals, you must also look at the new habits that you need to make to achieve them. Then you can use a system to train yourself to do those habits.&lt;/p&gt;
+
+&lt;p&gt;BJ Fogg, a Stanford professor of behavioral psychology, has spent the last few years developing his Tiny Habits system. He gives a free online class each week teaching people how to create habits, and it works. I know what you’re thinking… “I don’t have time to take an entire class!” But the Tiny Habits ‘class’ takes 15 minutes to get started, and less than 3 minutes a day. In a nutshell, BJ teaches you to identify triggers and celebrate when you do the new habit you are trying to create.&lt;/p&gt;
+
+&lt;p&gt;I’m not kidding. It’s 15 minutes and 3 minutes a day. Go sign up at the &lt;a href=&quot;http://tinyhabits.com&quot;&gt;Tiny Habits&lt;/a&gt; website. You’ll spend a whole lifetime building habits, so spend a week learning how to control which ones, so you can build the habits you want.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-resolution&quot;&gt;In Resolution&lt;/h2&gt;
+
+&lt;p&gt;This isn’t meant to be a deep dive into setting goals. There are entire libraries dedicated to that. But I invite you to dig a little deeper.&lt;/p&gt;
+
+&lt;p&gt;Go beyond your New Years Resolutions. Spend the time to truly design the year that you want to have. Develop systems that take willpower out of the equation. Identify the habits required to reach your goal. Spend some time learning how habits work and how to develop the ones that you want. &lt;em&gt;That&lt;/em&gt; will lead to success. &lt;/p&gt;
+
+&lt;p&gt;Have a Happy New Year, and much success.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2014/beyond-resolutions/&quot;&gt;Beyond Resolutions&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on January 01, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">Get Around NBA Blackouts by Running Your Own VPN</title>
+  <link href="http://www.calebhicks.com/2013/get-around-nba-blackouts/"/>
+  <id>http://www.calebhicks.com/2013/get-around-nba-blackouts</id>
+  <published>2013-12-30T09:22:29Z</published>
+  <updated>2013-12-30T09:22:29Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;league-pass-and-blackouts&quot;&gt;League Pass and Blackouts&lt;/h2&gt;
+
+&lt;p&gt;You love watching games live, but you hate paying for cable. Seems like the only reason to pay for cable anymore is for live sports. &lt;a href=&quot;http://www.nba.com/leaguepass/broadband/&quot;&gt;NBA League Pass Broadband&lt;/a&gt; seems like it’d be the perfect solution. $129 to stream every game of your five favorite teams to your Apple TV, iPad, Roku, whatever.&lt;/p&gt;
+
+&lt;p&gt;It’s perfect. Except for &lt;strong&gt;&lt;a href=&quot;http://www.nba.com/nba_tv/blackouts.html&quot;&gt;stupid blackouts&lt;/a&gt;&lt;/strong&gt;. If you live anywhere that shows Jazz games on cable, they’ll block you from watching the games live on League Pass Broadband.&lt;/p&gt;
+
+&lt;p&gt;Since getting married, I’ve never paid for cable. But I didn’t want to miss Jazz games. After messing around with streaming sites of ill-repute (and many ads, and super low quality streams), I had to figure out a way to get League Pass to work.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-solution&quot;&gt;The Solution&lt;/h2&gt;
+
+&lt;p&gt;The trick is to make the NBA League Pass servers &lt;em&gt;think&lt;/em&gt; that you’re outside of Utah. You can use a service like a VPN or proxy server to do that. Basically, a VPN sends all of your traffic to a server, and then that server sends your internet requests for you, receives responses, and then sends those responses back to you.&lt;/p&gt;
+
+&lt;p&gt;Sort of confusing. Here’s a picture of what happens with blackouts:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/The-Solution.png&quot; alt=&quot;NBA Blackout Blocks Your Request&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-the-vpn-does&quot;&gt;What the VPN Does&lt;/h2&gt;
+
+&lt;p&gt;And what the VPN does:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/What-the-VPN-Does-sm.png&quot; alt=&quot;VPN disguises your location to the NBA servers&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/What-the-VPN-Does.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;so-how-do-i-get-a-vpn&quot;&gt;So how do I get a VPN?&lt;/h2&gt;
+
+&lt;p&gt;There are a few VPN services you can pay a couple bucks a month for. But they typically limit how much you can stream through them. I wouldn’t recommend them.&lt;/p&gt;
+
+&lt;p&gt;You can run your own, which is what I do, using a cloud server like Digital Ocean. I’m including instructions on how to set this up below. But it’s not for the faint of heart. If you’ve never heard the words Ubuntu, shell, or terminal before, this is probably going to be too hard. You’re welcome to try though!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt;, shoot me $30 bucks on Paypal or Venmo, and I’ll send you a username and password that you can use to access &lt;em&gt;my&lt;/em&gt; VPN. For what it’s worth, I don’t make a bunch off of that $30. Just covers bandwidth for 80%2B HD games of basketball.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-hard-way&quot;&gt;The Hard Way&lt;/h2&gt;
+
+&lt;p&gt;Ok. Here’s the meat and potatoes. You’re going to be setting up your own Linux server, PPTP for tunneling, and setting up a personal VPN account through your own server.&lt;/p&gt;
+
+&lt;h2 id=&quot;sign-up-for-digital-ocean&quot;&gt;Sign Up for Digital Ocean&lt;/h2&gt;
+
+&lt;p&gt;Step one. Go to DigitalOcean.com and Sign Up for a new account. Once your new account is set up, log in to your Admin Panel.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Sign-Up-for-Digital-Ocean-sm.png&quot; alt=&quot;Sign up for Digital Ocean&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Sign-Up-for-Digital-Ocean.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;digitalocean-control-panel&quot;&gt;DigitalOcean Control Panel&lt;/h2&gt;
+
+&lt;p&gt;Step two. You should see a giant blue Create Droplet button in the top-right corner. Go ahead and click it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/DigitalOcean-Control-Panel.png&quot; alt=&quot;Create a new droplet&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;choose-your-server-options&quot;&gt;Choose Your Server Options&lt;/h2&gt;
+
+&lt;p&gt;Step three. Choose your server options. First, enter a Hostname (this can be almost whatever you want, but I recommend a joke about Ty Corbin or Locke). Choose the cheapest option. That little machine is more than adequate to stream some games to you.&lt;/p&gt;
+
+&lt;p&gt;This next decision is important. Digital Ocean currently offers servers in New York, San Francisco, and Amsterdam. You will be subject to blackout rules for whichever area you choose. If you choose San Francisco, that means Golden State. If you choose New York, that probably means the Knicks, or Nets, or maybe both. If you choose Amsterdam, well, that’s not any of them. Having never tried one from Amsterdam, I’m not sure if there would be major lag or not. Go crazy. I choose New York 1. I don’t really have time to care about Knicks games on a regular basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Choose-Your-Server-Options-sm.png&quot; alt=&quot;Choose droplet options&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Choose-Your-Server-Options.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;digitalocean-control-panel-1&quot;&gt;DigitalOcean Control Panel&lt;/h2&gt;
+
+&lt;p&gt;Choose Ubuntu 13.04 x64, and leave Enable VirtIO on (I have no idea what this is, but it’s free!). Any version of Ubuntu should work, but I’m doing mine on 13.04, so if you want to follow along with my specific instructions, choose what I choose.&lt;/p&gt;
+
+&lt;p&gt;Click Create Droplet.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/DigitalOcean-Control-Panel-1.png&quot; alt=&quot;More droplet options&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;while-you-wait-check-your-e-mail&quot;&gt;While You Wait, Check Your E-mail&lt;/h2&gt;
+
+&lt;p&gt;Step four. Wait for your server to set up, and check your e-mail for your Root password.&lt;/p&gt;
+
+&lt;p&gt;The e-mail you get is important. It has all of the information you need to connect to your server.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/While-You-Wait--Check-Your-E-mail-sm.png&quot; alt=&quot;Check your e-mail for login details&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/While-You-Wait--Check-Your-E-mail.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;connect-to-your-server-via-ssh&quot;&gt;Connect to Your Server Via SSH&lt;/h2&gt;
+
+&lt;p&gt;Connect to your server via SSH. If you run Windows, you will need to download and use something like [PuTTY] to connect. If you run a Mac, then you can use the Terminal (use Spotlight to search for Terminal if you are unfamiliar with it).&lt;/p&gt;
+
+&lt;p&gt;Open your SSH client, and type ssh root@[your server’s ip address] and press enter. If your IP address was 192.241.145.95, then you would type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh root@192.241.145.95.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Connect-to-Your-Server-Via-SSH.png&quot; alt=&quot;SSH into your server using Terminal&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;copy-and-paste-your-password&quot;&gt;Copy and Paste Your Password&lt;/h2&gt;
+
+&lt;p&gt;Copy and paste your password from your e-mail into your terminal window and press enter. You’ll be logged in and ready to go.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Copy-and-Paste-Your-Password.png&quot; alt=&quot;Enter your password to get started&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;smart-people-use-security&quot;&gt;Smart People Use Security&lt;/h2&gt;
+
+&lt;p&gt;There are entire professions dedicated to locking down servers from people who would use them to do bad things like send spam. We could spend all day on that, but I’m not going to. We’re going to set this up in a way that you can easily blow it up and start over again if anything bad were to happen to your server.&lt;/p&gt;
+
+&lt;p&gt;I’m not smart.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;instal-pptpd&quot;&gt;Instal PPTPD&lt;/h2&gt;
+
+&lt;p&gt;PPTPD is the application the server will use to tunnel your requests. We’ll install it using the apt-get command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get install pptpd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Confirm you want to install it by typing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;y
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And pressing enter&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Instal-PPTPD.png&quot; alt=&quot;Install pptpd&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configure-pptpd&quot;&gt;Configure PPTPD&lt;/h2&gt;
+
+&lt;p&gt;Type the following command to edit the configuration file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/pptpd.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Scroll to the very bottom and remove the # sign from the front of the following lines:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#localip 192.168.0.234-238,192.168.0.245
+#remoteip 192.168.1.234-238,192.168.1.245
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Leaving:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;localip 192.168.0.234-238,192.168.0.245
+remoteip 192.168.1.234-238,192.168.1.245
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Save and exit by typing Control X and pressing Enter when it asks to save.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Configure-PPTPD.png&quot; alt=&quot;Configure pptpd&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;more-pptpd-configuration-stuff&quot;&gt;More PPTPD Configuration Stuff&lt;/h2&gt;
+
+&lt;p&gt;Next type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/ppp/pptpd-options
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Find the lines containing ‘ms-dns’ and add&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ms-dns 8.8.8.8
+ms-dns 8.8.4.4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will set up the server to use Google’s fast DNS service. If you don’t know what that means, don’t worry, it’ll work.&lt;/p&gt;
+
+&lt;p&gt;Save the same way as with the last file. Control %2B X, Y, then Enter.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/More-PPTPD-Configuration-Stuff.png&quot; alt=&quot;More pptpd configuration stuff&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-vpn-account&quot;&gt;Create a VPN Account&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/ppp/chap-secrets
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go to the bottom line, and put a username, pptpd, password, and an asterisk, putting a tab in between each.&lt;/p&gt;
+
+&lt;p&gt;Save and exit.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Create-a-VPN-Account.png&quot; alt=&quot;Create an account to login with&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;allow-ip4-forwarding&quot;&gt;Allow IP4 Forwarding&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/sysctl.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Remove the # symbol from the line with the following text:&lt;/p&gt;
+
+&lt;h1 id=&quot;netipv4ipforward1&quot;&gt;net.ipv4.ip_forward=1&lt;/h1&gt;
+
+&lt;p&gt;Leaving&lt;/p&gt;
+
+&lt;p&gt;net.ipv4.ip_forward=1&lt;/p&gt;
+
+&lt;p&gt;Save and exit.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Allow-IP4-Forwarding.png&quot; alt=&quot;Allow IP4 forwarding&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reboot-just-for-kicks&quot;&gt;Reboot, Just for Kicks&lt;/h2&gt;
+
+&lt;p&gt;I don’t know if this is actually necessary. But I like to do it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;reboot
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You will need to log in again using the steps before.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ssh root@[youripaddress]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then copy and paste your password.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configure-your-mac-to-connect-to-your-servers-vpn&quot;&gt;Configure Your Mac to Connect to Your Server’s VPN&lt;/h2&gt;
+
+&lt;p&gt;Now let’s check to see if we got everything set up right. Here are the steps for your Mac:&lt;/p&gt;
+
+&lt;p&gt;Open System Preferences.&lt;/p&gt;
+
+&lt;p&gt;Click on Network.&lt;/p&gt;
+
+&lt;p&gt;Click the + button in the bottom left corner.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Configure-Your-Mac-to-Connect-to-Your-Server-s-VPN.png&quot; alt=&quot;Add a new VPN connection on your Mac&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;configure-your-mac-select-vpn-setup&quot;&gt;Configure Your Mac: Select VPN Setup&lt;/h2&gt;
+
+&lt;p&gt;Select VPN and choose PPTP as the VPN Type. You can name the Service whatever you want.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Configure-Your-Mac--Select-VPN-Setup.png&quot; alt=&quot;Choose VPN option&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-your-password-and-connect&quot;&gt;Enter Your Password and Connect&lt;/h2&gt;
+
+&lt;p&gt;Click on Authentication Settings and enter your password. Then click ‘Connect’.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Enter-Your-Password-and-Connect.png&quot; alt=&quot;Enter your VPN server information&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;check-your-connection-status&quot;&gt;Check Your Connection Status&lt;/h2&gt;
+
+&lt;p&gt;Google&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;what is my ip address
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We want the result to say the address of your server that you set up. If you’ve done it right, then you’re golden! No more blackouts!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Check-Your-Connection-Status.png&quot; alt=&quot;Check your IP address&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;save-your-droplet-as-an-image&quot;&gt;Save Your Droplet as an Image&lt;/h2&gt;
+
+&lt;p&gt;I mentioned above how we weren’t going to be too worried about Security. That’s because we’re going to save an image that you can use if anything goes wrong. This will save you all of the above steps, in case you set up a new server down the road. This also means you can turn your server off during the off-season, and turn it back on once the season starts (like I did!).&lt;/p&gt;
+
+&lt;p&gt;Log back into your Digital Ocean account, and click on Images and Take a Snapshot.&lt;/p&gt;
+
+&lt;p&gt;Digital Ocean will ask you to power off your server to take the snapshot. Open up the Terminal again and type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo shutdown -h now
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then try again.&lt;/p&gt;
+
+&lt;p&gt;After it creates the snapshot, you will be able to create new Droplets (or servers) using that Snapshot. No more configuration needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Save-Your-Droplet-as-an-Image-sm.png&quot; alt=&quot;Create an image so you can shut it down and restart it&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Save-Your-Droplet-as-an-Image.png&quot;&gt;Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;connecting-other-devices&quot;&gt;Connecting Other Devices&lt;/h2&gt;
+
+&lt;p&gt;You can use the same VPN settings to connect any device that allows you to connect via VPN.&lt;/p&gt;
+
+&lt;p&gt;Any Mac, Windows, or Linux machine. iPads, iPhones, Android devices. All of those are easy. Just find the VPN settings and enter the username and password you set up earlier.&lt;/p&gt;
+
+&lt;p&gt;AppleTV’s, Roku’s, and others may require a little bit of extra setup, as they don’t give you VPN settings. You can change the settings in your Router, but that may push ALL of your traffic through an unsecured server, which is something you probably don’t want. E-mail me and I’d be happy to help look into this.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Did you have a problem with this step? &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#097;&amp;#108;&amp;#101;&amp;#098;&amp;#104;&amp;#105;&amp;#099;&amp;#107;&amp;#115;&amp;#037;&amp;#052;&amp;#048;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;E-mail me&lt;/a&gt; so I can fix it.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-end&quot;&gt;The End!&lt;/h2&gt;
+
+&lt;p&gt;Wow. That was long. They say it takes a great writer to keep things concise. Today, I am not that writer. I felt it would be better to make sure I fully explained everything, and I didn’t have a lot of time to edit it down to the essential steps.&lt;/p&gt;
+
+&lt;p&gt;This is a Version 1.0 of this tutorial for you Jazz fans. It’s a work in progress. I’m happy to update it if there is any confusion anywhere.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I plan to add the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;AppleTV support and directions&lt;/li&gt;
+  &lt;li&gt;Roku support and directions&lt;/li&gt;
+  &lt;li&gt;iPad/iPhone screenshots and directions&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you want to thank me, why don’t you give me a follow on Twitter (@calebhicks for general stuff, and @kelubonsports for Jazz stuff). If you don’t want to hassle with setting up your own VPN server, but still want to avoid Jazz blackouts on League Pass Broadband, e-mail me (calebhicks@gmail.com) and we can work something out. I’m thinking $30 for the season and I’ll give you access to my own server.&lt;/p&gt;
+
+&lt;p&gt;GO JAZZ!&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2013/get-around-nba-blackouts/&quot;&gt;Get Around NBA Blackouts by Running Your Own VPN&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on December 30, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="text">How to Get an Old Mac Ready to Sell in 5 Minutes</title>
+  <link href="http://www.calebhicks.com/2013/get-mac-ready-to-sell-5-minutes/"/>
+  <id>http://www.calebhicks.com/2013/get-mac-ready-to-sell-5-minutes</id>
+  <published>2013-12-29T20:57:29Z</published>
+  <updated>2013-12-29T20:57:29Z</updated>
+  <author>
+    <name>Caleb Hicks</name>
+    <uri>http://www.calebhicks.com</uri>
+    <email>calebhicks@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;So you’ve found someone to buy your old Mac, and now you’ve got to clear off your data.&lt;/p&gt;
+
+&lt;p&gt;Here’s how I prep my Macs for sale in less than 5 minutes. No Recovery Partition necessary.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-system-preferences-and-create-a-new-administrator-user&quot;&gt;Open System Preferences and Create a New Administrator User&lt;/h2&gt;
+
+&lt;p&gt;The first step is to create a new user with Administrator rates.&lt;/p&gt;
+
+&lt;p&gt;Open System Preferences. Click on Users. Unlock to allow changes. Hit the + button to create a new user with Administrator rights.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/get-an-old-mac-ready-to-sell/Open-System-Preferences-and-Create-a-New-Administrator-User.png&quot; alt=&quot;Open System Preferences&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;log-out-and-switch-to-your-new-user&quot;&gt;Log Out and Switch to Your New User&lt;/h2&gt;
+
+&lt;p&gt;The next step is to delete your old user account.&lt;/p&gt;
+
+&lt;p&gt;Log out. Log in to your new administrator user.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/get-an-old-mac-ready-to-sell/Log-Out-and-Switch-to-Your-New-User.png&quot; alt=&quot;Login Screen&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;open-system-preferences-and-delete-your-old-account&quot;&gt;Open System Preferences and Delete Your Old Account&lt;/h2&gt;
+
+&lt;p&gt;Open System Preferences. Click on Users. Select your old account, and click the minus button.&lt;/p&gt;
+
+&lt;p&gt;I’m assuming you already have a backup, so click on Delete the home folder, and check the Erase home folder securely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; You are securely erasing your account. If you do not have a backup, you will lose everything. You do keep backups, right? Go double check it before deleting your account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/get-an-old-mac-ready-to-sell/Open-System-Preferences-and-Delete-Your-Old-Account.png&quot; alt=&quot;Erase Old Username&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;bonus-step-securely-erase-empty-hard-drive-space&quot;&gt;Bonus Step: Securely Erase Empty Hard Drive Space&lt;/h2&gt;
+
+&lt;p&gt;Open Disk Utility. Select your Macintosh HD partition. Select the Erase tab. Click Erase Free Space. You can choose from 3 options ranging from Fastest to Most Secure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/74616/Clarify/get-an-old-mac-ready-to-sell/Bonus-Step--Securely-Erase-Empty-Hard-Drive-Space.png&quot; alt=&quot;Erase Empty Space&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;congratulations-your-computer-is-ready&quot;&gt;Congratulations, Your Computer is Ready&lt;/h2&gt;
+
+&lt;p&gt;After completing this walkthrough, you have a fresh user with the default settings, and you have securely wiped your personal data.&lt;/p&gt;
+
+&lt;p&gt;Nice work.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://www.calebhicks.com/2013/get-mac-ready-to-sell-5-minutes/&quot;&gt;How to Get an Old Mac Ready to Sell in 5 Minutes&lt;/a&gt; was originally published by Caleb Hicks at &lt;a href=&quot;http://www.calebhicks.com&quot;&gt;&lt;/a&gt; on December 29, 2013.&lt;/p&gt;</content>
+</entry>
+
+</feed>

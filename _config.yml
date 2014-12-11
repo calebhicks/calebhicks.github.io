@@ -1,0 +1,53 @@
+#Site Info
+name: CalebHicks.com
+description: Technology, entrepreneurship, education
+author: Caleb Hicks
+email: calebhicks@gmail.com
+timezone: America/Denver
+logo: /assets/logo.png
+url: http://www.calebhicks.com
+permalink: /:year/:title/
+disqus_shortname: calebhickscom
+border: 004A86
+
+# Mailchimp Subscribe Setup
+# http://kb.mailchimp.com/article/can-i-host-my-own-sign-up-forms/ to get data
+# leave MCusername blank if you do not want a subscription form
+MCusername: geekdaily
+MCu: 73469051aa8b75a7e7b4e0aca
+MClistid: e2af2b47bb
+
+# Site Specific Search
+# Powered by Duck Duck Go
+search: true
+
+# Social Media Accounts
+twitter: calebhicks      
+facebook:
+github:
+
+#Links using the following format (remove the #s)
+#  - title: About
+#    url: /about
+# Or for external links
+#  - title: Google
+#    url: http://google.com
+#    external: true
+links:
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Archive
+    url: /archive
+    
+# Google Analytics
+analytics-id: UA-11331492-5
+analytics-url: calebhicks.com
+
+#Jekyll Stuff
+markdown: kramdown
+pygments: true
+include: [".htaccess"]
+future: false
+paginate: 5

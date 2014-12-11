@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "A Default Post for Getting Started"
+date:   2000-01-01 01:01:01
+tldr: "A post to demonstrate the default Front Matter that you may want to include"
+modified: 2013-05-31
+category: articles
+tags: [sample post]
+comments: true
+---
+
+Your Markdown or HTML formatted content goes here.

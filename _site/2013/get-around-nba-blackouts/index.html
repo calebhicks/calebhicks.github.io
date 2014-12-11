@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>CalebHicks.com – Get Around NBA Blackouts by Running Your Own VPN</title>
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
+    
+        <link rel="stylesheet" href="http://www.calebhicks.com/assets/css/style.css">
+
+        <meta name="description" content="Technology, entrepreneurship, education">
+        
+        <meta name="apple-mobile-web-app-title" content="CalebHicks.com">
+        <link rel="icon" href="/assets/images/favicon.png">
+        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Blog Feed">
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+            ga('create', 'UA-11331492-5', 'calebhicks.com');
+            ga('send', 'pageview');
+        
+        </script>
+    </head>
+
+    <body style="border-top: 6px solid #004A86;">
+        <div class="site">
+            <header id="top" class="branding" role="banner">
+                <a href="/"><img src="/assets/images/logo.png" class="header-logo" alt="CalebHicks.com"></a>
+                <h1>
+                    Welcome to <a href="/" class="sitetitle">CalebHicks.com</a> – Technology, entrepreneurship, education.
+                </h1>
+            </header>
+                
+            <main role="main">    
+
+<article class="blog">
+	<header class="post-meta">
+		<h1> <a href="/2013/get-around-nba-blackouts/"> Get Around NBA Blackouts by Running Your Own VPN</a></h1>
+		<time datetime="2013-12-30T09:22:29Z">December 30, 2013</time>
+	</header>
+	<h2 id="league-pass-and-blackouts">League Pass and Blackouts</h2>
+
+<p>You love watching games live, but you hate paying for cable. Seems like the only reason to pay for cable anymore is for live sports. <a href="http://www.nba.com/leaguepass/broadband/">NBA League Pass Broadband</a> seems like it’d be the perfect solution. $129 to stream every game of your five favorite teams to your Apple TV, iPad, Roku, whatever.</p>
+
+<p>It’s perfect. Except for <strong><a href="http://www.nba.com/nba_tv/blackouts.html">stupid blackouts</a></strong>. If you live anywhere that shows Jazz games on cable, they’ll block you from watching the games live on League Pass Broadband.</p>
+
+<p>Since getting married, I’ve never paid for cable. But I didn’t want to miss Jazz games. After messing around with streaming sites of ill-repute (and many ads, and super low quality streams), I had to figure out a way to get League Pass to work.</p>
+
+<h2 id="the-solution">The Solution</h2>
+
+<p>The trick is to make the NBA League Pass servers <em>think</em> that you’re outside of Utah. You can use a service like a VPN or proxy server to do that. Basically, a VPN sends all of your traffic to a server, and then that server sends your internet requests for you, receives responses, and then sends those responses back to you.</p>
+
+<p>Sort of confusing. Here’s a picture of what happens with blackouts:</p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/The-Solution.png" alt="NBA Blackout Blocks Your Request" /></p>
+
+<h2 id="what-the-vpn-does">What the VPN Does</h2>
+
+<p>And what the VPN does:</p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/What-the-VPN-Does-sm.png" alt="VPN disguises your location to the NBA servers" /></p>
+
+<p><a href="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/What-the-VPN-Does.png">Zoom</a></p>
+
+<h2 id="so-how-do-i-get-a-vpn">So how do I get a VPN?</h2>
+
+<p>There are a few VPN services you can pay a couple bucks a month for. But they typically limit how much you can stream through them. I wouldn’t recommend them.</p>
+
+<p>You can run your own, which is what I do, using a cloud server like Digital Ocean. I’m including instructions on how to set this up below. But it’s not for the faint of heart. If you’ve never heard the words Ubuntu, shell, or terminal before, this is probably going to be too hard. You’re welcome to try though!</p>
+
+<p><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a>, shoot me $30 bucks on Paypal or Venmo, and I’ll send you a username and password that you can use to access <em>my</em> VPN. For what it’s worth, I don’t make a bunch off of that $30. Just covers bandwidth for 80%2B HD games of basketball.</p>
+
+<h2 id="the-hard-way">The Hard Way</h2>
+
+<p>Ok. Here’s the meat and potatoes. You’re going to be setting up your own Linux server, PPTP for tunneling, and setting up a personal VPN account through your own server.</p>
+
+<h2 id="sign-up-for-digital-ocean">Sign Up for Digital Ocean</h2>
+
+<p>Step one. Go to DigitalOcean.com and Sign Up for a new account. Once your new account is set up, log in to your Admin Panel.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Sign-Up-for-Digital-Ocean-sm.png" alt="Sign up for Digital Ocean" /></p>
+
+<p><a href="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Sign-Up-for-Digital-Ocean.png">Zoom</a></p>
+
+<h2 id="digitalocean-control-panel">DigitalOcean Control Panel</h2>
+
+<p>Step two. You should see a giant blue Create Droplet button in the top-right corner. Go ahead and click it.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/DigitalOcean-Control-Panel.png" alt="Create a new droplet" /></p>
+
+<h2 id="choose-your-server-options">Choose Your Server Options</h2>
+
+<p>Step three. Choose your server options. First, enter a Hostname (this can be almost whatever you want, but I recommend a joke about Ty Corbin or Locke). Choose the cheapest option. That little machine is more than adequate to stream some games to you.</p>
+
+<p>This next decision is important. Digital Ocean currently offers servers in New York, San Francisco, and Amsterdam. You will be subject to blackout rules for whichever area you choose. If you choose San Francisco, that means Golden State. If you choose New York, that probably means the Knicks, or Nets, or maybe both. If you choose Amsterdam, well, that’s not any of them. Having never tried one from Amsterdam, I’m not sure if there would be major lag or not. Go crazy. I choose New York 1. I don’t really have time to care about Knicks games on a regular basis.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Choose-Your-Server-Options-sm.png" alt="Choose droplet options" /></p>
+
+<p><a href="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Choose-Your-Server-Options.png">Zoom</a></p>
+
+<h2 id="digitalocean-control-panel-1">DigitalOcean Control Panel</h2>
+
+<p>Choose Ubuntu 13.04 x64, and leave Enable VirtIO on (I have no idea what this is, but it’s free!). Any version of Ubuntu should work, but I’m doing mine on 13.04, so if you want to follow along with my specific instructions, choose what I choose.</p>
+
+<p>Click Create Droplet.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/DigitalOcean-Control-Panel-1.png" alt="More droplet options" /></p>
+
+<h2 id="while-you-wait-check-your-e-mail">While You Wait, Check Your E-mail</h2>
+
+<p>Step four. Wait for your server to set up, and check your e-mail for your Root password.</p>
+
+<p>The e-mail you get is important. It has all of the information you need to connect to your server.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/While-You-Wait--Check-Your-E-mail-sm.png" alt="Check your e-mail for login details" /></p>
+
+<p><a href="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/While-You-Wait--Check-Your-E-mail.png">Zoom</a></p>
+
+<h2 id="connect-to-your-server-via-ssh">Connect to Your Server Via SSH</h2>
+
+<p>Connect to your server via SSH. If you run Windows, you will need to download and use something like [PuTTY] to connect. If you run a Mac, then you can use the Terminal (use Spotlight to search for Terminal if you are unfamiliar with it).</p>
+
+<p>Open your SSH client, and type ssh root@[your server’s ip address] and press enter. If your IP address was 192.241.145.95, then you would type:</p>
+
+<pre><code>ssh root@192.241.145.95.
+</code></pre>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Connect-to-Your-Server-Via-SSH.png" alt="SSH into your server using Terminal" /></p>
+
+<h2 id="copy-and-paste-your-password">Copy and Paste Your Password</h2>
+
+<p>Copy and paste your password from your e-mail into your terminal window and press enter. You’ll be logged in and ready to go.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Copy-and-Paste-Your-Password.png" alt="Enter your password to get started" /></p>
+
+<h2 id="smart-people-use-security">Smart People Use Security</h2>
+
+<p>There are entire professions dedicated to locking down servers from people who would use them to do bad things like send spam. We could spend all day on that, but I’m not going to. We’re going to set this up in a way that you can easily blow it up and start over again if anything bad were to happen to your server.</p>
+
+<p>I’m not smart.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<h2 id="instal-pptpd">Instal PPTPD</h2>
+
+<p>PPTPD is the application the server will use to tunnel your requests. We’ll install it using the apt-get command:</p>
+
+<pre><code>apt-get install pptpd
+</code></pre>
+
+<p>Confirm you want to install it by typing</p>
+
+<pre><code>y
+</code></pre>
+
+<p>And pressing enter</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Instal-PPTPD.png" alt="Install pptpd" /></p>
+
+<h2 id="configure-pptpd">Configure PPTPD</h2>
+
+<p>Type the following command to edit the configuration file:</p>
+
+<pre><code>sudo nano /etc/pptpd.conf
+</code></pre>
+
+<p>Scroll to the very bottom and remove the # sign from the front of the following lines:</p>
+
+<pre><code>#localip 192.168.0.234-238,192.168.0.245
+#remoteip 192.168.1.234-238,192.168.1.245
+</code></pre>
+
+<p>Leaving:</p>
+
+<pre><code>localip 192.168.0.234-238,192.168.0.245
+remoteip 192.168.1.234-238,192.168.1.245
+</code></pre>
+
+<p>Save and exit by typing Control X and pressing Enter when it asks to save.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Configure-PPTPD.png" alt="Configure pptpd" /></p>
+
+<h2 id="more-pptpd-configuration-stuff">More PPTPD Configuration Stuff</h2>
+
+<p>Next type:</p>
+
+<pre><code>sudo nano /etc/ppp/pptpd-options
+</code></pre>
+
+<p>Find the lines containing ‘ms-dns’ and add</p>
+
+<pre><code>ms-dns 8.8.8.8
+ms-dns 8.8.4.4
+</code></pre>
+
+<p>This will set up the server to use Google’s fast DNS service. If you don’t know what that means, don’t worry, it’ll work.</p>
+
+<p>Save the same way as with the last file. Control %2B X, Y, then Enter.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/More-PPTPD-Configuration-Stuff.png" alt="More pptpd configuration stuff" /></p>
+
+<h2 id="create-a-vpn-account">Create a VPN Account</h2>
+
+<pre><code>sudo nano /etc/ppp/chap-secrets
+</code></pre>
+
+<p>Go to the bottom line, and put a username, pptpd, password, and an asterisk, putting a tab in between each.</p>
+
+<p>Save and exit.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Create-a-VPN-Account.png" alt="Create an account to login with" /></p>
+
+<h2 id="allow-ip4-forwarding">Allow IP4 Forwarding</h2>
+
+<pre><code>sudo nano /etc/sysctl.conf
+</code></pre>
+
+<p>Remove the # symbol from the line with the following text:</p>
+
+<h1 id="netipv4ipforward1">net.ipv4.ip_forward=1</h1>
+
+<p>Leaving</p>
+
+<p>net.ipv4.ip_forward=1</p>
+
+<p>Save and exit.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Allow-IP4-Forwarding.png" alt="Allow IP4 forwarding" /></p>
+
+<h2 id="reboot-just-for-kicks">Reboot, Just for Kicks</h2>
+
+<p>I don’t know if this is actually necessary. But I like to do it.</p>
+
+<pre><code>reboot
+</code></pre>
+
+<p>You will need to log in again using the steps before.</p>
+
+<pre><code>ssh root@[youripaddress]
+</code></pre>
+
+<p>Then copy and paste your password.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<h2 id="configure-your-mac-to-connect-to-your-servers-vpn">Configure Your Mac to Connect to Your Server’s VPN</h2>
+
+<p>Now let’s check to see if we got everything set up right. Here are the steps for your Mac:</p>
+
+<p>Open System Preferences.</p>
+
+<p>Click on Network.</p>
+
+<p>Click the + button in the bottom left corner.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Configure-Your-Mac-to-Connect-to-Your-Server-s-VPN.png" alt="Add a new VPN connection on your Mac" /></p>
+
+<h2 id="configure-your-mac-select-vpn-setup">Configure Your Mac: Select VPN Setup</h2>
+
+<p>Select VPN and choose PPTP as the VPN Type. You can name the Service whatever you want.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Configure-Your-Mac--Select-VPN-Setup.png" alt="Choose VPN option" /></p>
+
+<h2 id="enter-your-password-and-connect">Enter Your Password and Connect</h2>
+
+<p>Click on Authentication Settings and enter your password. Then click ‘Connect’.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Enter-Your-Password-and-Connect.png" alt="Enter your VPN server information" /></p>
+
+<h2 id="check-your-connection-status">Check Your Connection Status</h2>
+
+<p>Google</p>
+
+<pre><code>what is my ip address
+</code></pre>
+
+<p>We want the result to say the address of your server that you set up. If you’ve done it right, then you’re golden! No more blackouts!</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Check-Your-Connection-Status.png" alt="Check your IP address" /></p>
+
+<h2 id="save-your-droplet-as-an-image">Save Your Droplet as an Image</h2>
+
+<p>I mentioned above how we weren’t going to be too worried about Security. That’s because we’re going to save an image that you can use if anything goes wrong. This will save you all of the above steps, in case you set up a new server down the road. This also means you can turn your server off during the off-season, and turn it back on once the season starts (like I did!).</p>
+
+<p>Log back into your Digital Ocean account, and click on Images and Take a Snapshot.</p>
+
+<p>Digital Ocean will ask you to power off your server to take the snapshot. Open up the Terminal again and type:</p>
+
+<pre><code>sudo shutdown -h now
+</code></pre>
+
+<p>Then try again.</p>
+
+<p>After it creates the snapshot, you will be able to create new Droplets (or servers) using that Snapshot. No more configuration needed.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<p><img src="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Save-Your-Droplet-as-an-Image-sm.png" alt="Create an image so you can shut it down and restart it" /></p>
+
+<p><a href="https://dl.dropboxusercontent.com/u/74616/Clarify/league-pass/Save-Your-Droplet-as-an-Image.png">Zoom</a></p>
+
+<h2 id="connecting-other-devices">Connecting Other Devices</h2>
+
+<p>You can use the same VPN settings to connect any device that allows you to connect via VPN.</p>
+
+<p>Any Mac, Windows, or Linux machine. iPads, iPhones, Android devices. All of those are easy. Just find the VPN settings and enter the username and password you set up earlier.</p>
+
+<p>AppleTV’s, Roku’s, and others may require a little bit of extra setup, as they don’t give you VPN settings. You can change the settings in your Router, but that may push ALL of your traffic through an unsecured server, which is something you probably don’t want. E-mail me and I’d be happy to help look into this.</p>
+
+<p><em>Did you have a problem with this step? <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#097;&#108;&#101;&#098;&#104;&#105;&#099;&#107;&#115;&#037;&#052;&#048;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">E-mail me</a> so I can fix it.</em></p>
+
+<h2 id="the-end">The End!</h2>
+
+<p>Wow. That was long. They say it takes a great writer to keep things concise. Today, I am not that writer. I felt it would be better to make sure I fully explained everything, and I didn’t have a lot of time to edit it down to the essential steps.</p>
+
+<p>This is a Version 1.0 of this tutorial for you Jazz fans. It’s a work in progress. I’m happy to update it if there is any confusion anywhere.</p>
+
+<p>Additionally, I plan to add the following:</p>
+
+<ol>
+  <li>AppleTV support and directions</li>
+  <li>Roku support and directions</li>
+  <li>iPad/iPhone screenshots and directions</li>
+</ol>
+
+<p>If you want to thank me, why don’t you give me a follow on Twitter (@calebhicks for general stuff, and @kelubonsports for Jazz stuff). If you don’t want to hassle with setting up your own VPN server, but still want to avoid Jazz blackouts on League Pass Broadband, e-mail me (calebhicks@gmail.com) and we can work something out. I’m thinking $30 for the season and I’ll give you access to my own server.</p>
+
+<p>GO JAZZ!</p>
+
+
+
+    <footer class="related-posts">
+			<div class="post-topics">
+				Topics: <a href="tag/walkthrough">walkthrough</a>, <a href="tag/sports">sports</a>
+			</div>
+		
+		<div class="post-meta" style="background: #dfdfdf; padding: 1px;"">
+			<p>Follow the author on <a href="http://twitter.com/calebhicks">Twitter</a>.</p>
+		</div>
+		
+		
+    
+    <h3>You may also be interested in:</h3>
+    <ul>
+        
+        <li><a href="/2014/learn-12-week-coding-bootcamp/">From Junior High Teacher to iOS Developer</a></li>
+        
+        <li><a href="/2014/status-ready-for-sale/">Status: Ready for Sale - The Story Behind Building My First App</a></li>
+        
+        <li><a href="/2014/learn-to-code-with-me/">Learn to Code With Me</a></li>
+        
+        <li><a href="/2014/basecamp-free-teachers/">How I Use Basecamp in My Classroom</a></li>
+        
+        <li><a href="/2014/udot-commercial/">UDOT Super Bowl Commercial Controversy</a></li>
+        
+    </ul>
+    
+    </footer>
+</article>
+
+
+
+</main>
+    </div><!-- .site -->
+        <footer class="footerwide bottom-footer" role="contentinfo">
+            <div class="sub-footer">
+                <nav class="menu cf" role="navigation">
+                    <ul>
+                        
+                        <li>
+                            
+                                <a href="/about">About</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                                <a href="/contact">Contact</a>
+                            
+                        </li>
+                        
+                        <li>
+                            
+                                <a href="/archive">Archive</a>
+                            
+                        </li>
+                        
+                        <li class="twitter"><a href="http://twitter.com/calebhicks">Twitter</a>
+                        
+                        <li class=""><a href="/subscribe/">Subscribe</a></li>
+                    </ul>
+                </nav>
+               	
+                <div class="footerwide">
+                    <form class="search" method="get" action="https://duckduckgo.com/" rel="external">
+						<div class="input-group input-group-sm">
+							<input type="search" name="q" class="form-control search-input col-sm-6" placeholder="Search CalebHicks.com">
+						</div>
+						<input type="submit" style="display: none;" >
+						<input type="hidden" name="sites" value="http://www.calebhicks.com">
+					</form>
+	         	</div>
+	         	
+            </div>
+            <div class="footerwide copyright">
+                <p>© 2014 CalebHicks.com by Caleb Hicks • Built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://statiq.io">Statiq</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

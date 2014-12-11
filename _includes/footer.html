@@ -1,0 +1,39 @@
+</main>
+    </div><!-- .site -->
+        <footer class="footerwide bottom-footer" role="contentinfo">
+            <div class="sub-footer">
+                <nav class="menu cf" role="navigation">
+                    <ul>
+                        {% for link in site.links %}
+                        <li>
+                            {% if link.external %}
+                                <a href="{{ link.url }}">{{ link.title }}</a>
+                            {% else %}
+                                <a href="{{ link.url }}">{{ link.title }}</a>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                        {% if site.twitter %}<li class="twitter"><a href="http://twitter.com/{{site.twitter}}">Twitter</a>{% endif %}
+                        {% if site.facebook %}<li class="facebook"><a href="http://facebook.com/{{site.facebook}}">Facebook</a>{% endif %}
+                        <li class=""><a href="/subscribe/">Subscribe</a></li>
+                    </ul>
+                </nav>
+               	{% if site.search %}
+                <div class="footerwide">
+                    <form class="search" method="get" action="https://duckduckgo.com/" rel="external">
+						<div class="input-group input-group-sm">
+							<input type="search" name="q" class="form-control search-input col-sm-6" placeholder="Search {{site.name}}">
+						</div>
+						<input type="submit" style="display: none;" >
+						<input type="hidden" name="sites" value="{{site.url}}">
+					</form>
+	         	</div>
+	         	{% endif %}
+            </div>
+            <div class="footerwide copyright">
+                <p>© {{ site.time | date: "%Y" }} {{site.name}} by {{site.author}} • Built using <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://statiq.io">Statiq</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
+
