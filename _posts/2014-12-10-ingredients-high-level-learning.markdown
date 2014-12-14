@@ -19,7 +19,7 @@ I've seen many learning environments: Groups of all sizes. Students from all bac
 
 In all of these different scenarios, I've found two essential ingredients for high-level learning:
 
-1. **Both the teacher and the learner must have a clear understanding of what the learner *should* know, and what he/she *actually* knows**.
+### Both the teacher and the learner must have a clear understanding of what the learner *should* know, and what he/she *actually* knows.
 
 The teacher needs to know what to teach. The learner must know what she is trying to learn. Both should know when that learning has occurred.
 
@@ -29,7 +29,7 @@ Assessment is required. It can be formal or informal, but the teacher and the le
 
 Teachers and learners must be working towards the same goal.
 
-2. **The learner needs a willing and able mentor to bridge that gap**.
+### The learner needs a willing and able mentor to bridge that gap.
 
 Sometimes this mentor is the teacher. Unfortunately, one teacher doesn't scale beyond a very small group. This is why people complain about large classroom sizes. This is why MOOCs don't work. This is why a teacher can't just regurgitate the same Powerpoint presentation for a decade and expect great outcomes.
 
