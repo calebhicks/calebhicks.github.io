@@ -13,7 +13,7 @@ link:
 tweet: The 2 essential ingredients for High Level Learning
 ---
 
-I've spent the past 10 years in education. Two years in Uruguay co-teaching small groups and large congregations with living conditions well beneath the poverty line. Five years in public secondary education with 35-40 student teenagers. And the past six months working with adults at a software development bootcamp in Utah.
+I've spent the past 10 years in education. Two years in Uruguay co-teaching small groups and large congregations with living conditions well beneath the poverty line. Five years in [public secondary education with 35-40 student teenagers](http://hickscte.com). And the past six months working with adults at a [software development bootcamp](http://devmounta.in) in Utah.
 
 I've seen many learning environments: Groups of all sizes. Students from all backgrounds. Teachers with all kinds of experience. Learning environments of all types.
 
@@ -55,4 +55,4 @@ Furthermore, a learner's job is to understand those expectations, participate in
 
 I believe in the learning process. It is an essential element of a happy and successful life. We can all benefit from understanding how we can teach and learn better.
 
-If you're a teacher or a learner, consider the two essential ingredients to a positive learning experience. Make them an integral part of that experience. Do it, and I guarantee a happy outcome. Both teacher and student will leave better for the effort.
+If you're a teacher or a learner, consider the two essential ingredients to a positive learning experience. Make them an integral part of that experience. Do it, and I guarantee a positive outcome. Both teacher and student will leave better for the effort.
