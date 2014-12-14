@@ -42,7 +42,7 @@ html {
 body {
 	background-color: white;
     color: #302A2C;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     padding: 0 0 0 0;
     line-height: 1;
     font-size: 100%;
@@ -66,7 +66,7 @@ body {
 }
 footer {
     padding: 10px 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     line-height: 1.4em;
 }
 
@@ -122,7 +122,7 @@ a:visited {
 
 .branding h1 {
 	display: table-cell;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-weight: 400;
     font-size: 1.25em;
     color: #999;
@@ -185,7 +185,7 @@ a:visited {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
 }
 .subscribe input:hover {
     opacity: 0.7;
@@ -215,7 +215,7 @@ a:visited {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
 }
 .search input:hover {
     opacity: 0.7;
@@ -297,7 +297,7 @@ a:visited {
 }
 
 .post-meta {
-	font-family: 'Source Sans Pro', sans-serif; 
+	font-family: 'Pontano Sans', sans-serif; 
 	font-weight: 400;
     color: #777476;
     font-size: 1em;
@@ -308,7 +308,7 @@ a:visited {
 }
 
 .post-topics {
-	font-family: 'Source Sans Pro', sans-serif; 
+	font-family: 'Pontano Sans', sans-serif; 
 	font-weight: 400;
     color: #777476;
     font-size: 1em;
@@ -355,13 +355,13 @@ time {
 	width: 100%;
 	background-color: #3c9def;
 	padding: 15px 10px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	text-align: center;
 	font-size: 1em;
 }
 
 .page h1 {
-	font-family: Source Sans Pro, serif;
+	font-family: Pontano Sans, serif;
 	text-align: center;
 }
 
@@ -384,17 +384,17 @@ a.read_more:hover {
 -------------------------------------------------------------- */
 
 .archive {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	margin-bottom: 80px;
 }
 
 .archive h1, .archive p {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	text-align: center;
 }
 
 .archive h2 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	text-align: center;
@@ -443,7 +443,7 @@ em {
     font-weight: 400italic;
 }
 h1, h2, h3, h4 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
     font-weight: normal;
     line-height: 1.3em;
     text-transform: none;
@@ -467,7 +467,7 @@ article ul li ul, article ul li ol {
 }
 
 article h1, .archive h1, .page h1 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Pontano Sans', sans-serif;
 	font-weight: 600;
     font-size: 2.5em;
     margin: 0 0 5px 0;
@@ -569,7 +569,7 @@ article pre {
     padding: 5px 10px;
     width: 100%;
     color: #555;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-size: 1.5em;
     background: #eee;
     text-align: center;
@@ -695,7 +695,7 @@ iframe {
 	}
 	
 #fusion_ad {
-	font-family: 'Source Sans Pro', sans-serif;	
+	font-family: 'Pontano Sans', sans-serif;	
 	text-align: center;
 }
 
