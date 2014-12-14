@@ -93,7 +93,7 @@ a:focus {
 
 p a:link,
 a:visited {
-	font-weight: bolder;
+    color: #165DB1;
 }
 
 #main a:link,

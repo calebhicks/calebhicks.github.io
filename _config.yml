@@ -8,7 +8,7 @@ logo: /assets/logo.png
 url: http://www.calebhicks.com
 permalink: /:year/:title/
 disqus_shortname: calebhickscom
-border: 004A86
+border: 165DB1
 
 # Mailchimp Subscribe Setup
 # http://kb.mailchimp.com/article/can-i-host-my-own-sign-up-forms/ to get data
