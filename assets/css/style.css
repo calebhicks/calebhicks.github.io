@@ -92,8 +92,13 @@ a:focus {
 }
 
 p a:link,
-a:visited {
+p a:visited {
     color: #165DB1;
+}
+
+h1 a:link,
+h1 a:visited {
+    color: #272227;
 }
 
 #main a:link,
