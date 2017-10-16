@@ -25,7 +25,7 @@ I’ve gotten more questions about this change than previous career changes, so 
 
 First, to do right by my family. We loved our experience in the Bay Area, but we are ridiculously excited to return home to Utah surrounded by friends, family, and gorgeous mountains. I mean, just look at them. 
 
-![http://calebhicks.com/images/utah-mountains.jpg](Picture of Utah mountains.)
+![Photo of gorgeous Utah mountains](/images/utah-mountains.jpg)
 
 Second, to get back into my interests and hobbies. Working at Apple has many benefits, but fully participating in the developer, open source, Apple enthusiast, local startup, or working on side projects and freelance work is not one of them. All of these are an important part of my psyche, identity, and career satisfaction. (Relatedly, we’ll be shipping [Wired In](https://wearewired.in) very soon.)
 
