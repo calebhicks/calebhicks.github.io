@@ -17,8 +17,6 @@ link:
 
 ---
 
-# Every New Beginning
-
 After spending the last 15 months at Apple working on the [Everyone Can Code](https://apple.com/) program, bringing Swift and App Development training into high schools, colleges, and enterprise, I’ve got something big to announce.
 
 Today I begin a new chapter at [Lambda School](https://lambdaschool.com), a new YC-backed six month online computer science program that’s free for students until they get a job. And I could not be more excited. Check out the website if you want to learn more.
